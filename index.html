@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Firmament</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href='assets/css/opensans.css' rel='stylesheet'>
+    <link href='assets/css/font-awesome.css' rel='stylesheet'>
+
+    <link rel="icon" type="image/png" sizes="192x192" 
+    href="assets/fav/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"   
+    href="assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96"   
+    href="assets/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"   
+    href="assets/fav/favicon-16x16.png">
+  </head>
+  <body class="no-select">
+
+    <!-- TEMPLATES -->
+    <script id="families" type="x-tmpl-mustache">
+      <h3>Continue your exploration.</h3>
+      <p class="sidebar-text">
+        Select the family of constellations you wish to learn about today.
+      </p>
+      <div class="col-xs-12">
+        {{#family}}
+        <div class="col-xs-6">
+          <div class="circle circle-progress" data-family="{{name}}">
+            {{completed}} / {{total}}
+          </div>
+          <p>{{name}}</p>
+        </div>
+        {{/family}}
+      </div>
+    </script>
+
+    <script id="family" type="x-tmpl-mustache">
+      {{#prog}}
+        <div class="circle circle-single">{{completed}} / {{total}}</div>
+        <h3>{{name}}</h3>
+      {{/prog}}
+      <div class="const-group">
+        <h5>Family</h5>
+        <p class="sidebar-text">{{info}}</p>
+        {{#groups}}
+          <div class="list-group family-view-level">
+            {{#constellations}}
+              <a href="#" class="list-group-item" data-group="{{index}}" data-constellation="{{.}}">
+                {{.}}
+              </a>
+            {{/constellations}}
+          </div>
+        {{/groups}}
+      </div>
+      <span class="btn btn-side btn-primary-outline btn-text" data-reset>Back</span>
+    </script>
+      
+    <script id="constellation" type="x-tmpl-mustache">
+      {{#current}}
+      <div class="circle circle-single">{{short}}</div>
+      <h3>{{name}}</h3>
+      <h6>{{meaning}}</h6>
+      <br>
+      <p>{{info}}</p>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th scope="row">Family</th>
+            <td>{{family}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Origin</th>
+            <td>{{origin}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Meaning</th>
+            <td>{{meaning}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Luminary</th>
+            <td>{{luminary}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Month</th>
+            <td>{{month}}</td>
+          </tr>
+        </tbody>
+      </table>
+      {{/current}}
+      {{#prev}}
+      <span class="btn btn-side btn-primary-outline btn-text" data-group="{{index}}" data-constellation="{{name}}">Prev</span>
+      {{/prev}}
+      <span class="btn btn-side btn-primary-outline btn-text" data-family="{{family}}">Back</span>
+      {{#next}}
+      <span class="btn btn-side btn-primary-outline btn-text" data-group="{{index}}" data-constellation="{{name}}">Next</span>
+      {{/next}}
+      {{^next}}
+			{{#test}}
+      <span class="btn btn-side btn-primary-outline btn-text" data-test data-group="{{index}}" data-family="{{name}}">Test</span>
+			{{/test}}
+      {{/next}} 
+    </script>
+
+    
+    <script id="quiz-question" type="x-tmpl-mustache">
+      <div class="circle circle-single quiz-circle">{{time}}</div>
+      <h3>Question</h3><h6 class="sidebar-text">What's the name?</h6>
+      <p class="sidebar-text">What is the name of this constellation you have learnt?</p>
+
+			<div class="form-input">
+				<label>This is...
+					<input id="quiz-answer-box" type="text" maxlength="20" class="form-control" placeholder="Answer">
+				</label>
+				<span class="btn btn-sm btn-primary-outline" data-quiz-submit>Submit</span>
+			</div>
+      <span class="btn btn-side btn-primary-outline btn-text" data-reset>Back</span>
+    </script>
+
+    <script id="quiz-answer" type="x-tmpl-mustache">
+      <div class="circle circle-single quiz-circle">{{time}}</div>
+      <h3>Question</h3><h6 class="sidebar-text">What's the name?</h6>
+      <p class="sidebar-text">What is the name of this constellation you have learnt?</p>
+
+			<div class="form-input">
+				{{#correct}}
+				<div class="form-group has-success">
+					<i class="fa fa-check" aria-hidden="true"></i>
+					<label class="form-control-label has-success">
+						<span>Correct!</span><br>
+						<span>This is {{name}}.</span>
+					</label>
+				</div>
+				{{/correct}}
+				{{^correct}}
+				<div class="form-group has-danger">
+					<i class="fa fa-cross" aria-hidden="true"></i>
+					<label class="form-control-label has-danger">
+						<span>Not quite!</span><br>
+						<span>This is {{name}}.</span>
+					</label>
+				</div>
+				{{/correct}}
+				<span class="btn btn-side btn-primary-outline btn-text" data-quiz-next>Next</span>
+			</div>
+      <span class="btn btn-side btn-primary-outline btn-text" data-reset>Back</span>
+    </script>
+
+    <script id="quiz-result" type="x-tmpl-mustache">
+      <div class="circle circle-single quiz-circle">?</div>
+      <h3>Question</h3><h6 class="sidebar-text">What's the name?</h6>
+      <p class="sidebar-text">What is the name of this constellation you have learnt?</p>
+
+      <div>
+				{{#pass}}
+				<div class="sidebar-box">
+					<p>You scored {{correct}} out of {{total}}</p>
+					<p>Well done! You are ready to learn more.</p>	
+				</div>
+				{{/pass}}
+				{{^pass}}
+				<div class="sidebar-box">
+					<p>You scored {{correct}} out of {{total}}</p>
+					<p>Let's take a look at some of these constellations again.</p>
+				</div>
+				{{/pass}}
+			</div>
+      <span class="btn btn-side btn-primary-outline btn-text" data-reset>Back</span>
+    </script>
+
+    <script id="leader" type="x-tmpl-mustache">
+      <h3 class="leaderboard-header">Challenge finished! You scored {{score}} points.  </h3>
+      <table class="table leaderboard-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+				{{#person}}
+					<tr>
+						<th>{{rank}}</th>
+						<th>{{name}}</th>
+						<th>{{score}}</th>
+					</tr>
+				{{/person}}
+				</tbody>
+      </table>
+
+      <div class="btn btn-primary-outline btn-text" data-reset>Return to Firmament</div>
+    </script>
+
+    <script id="multiplayer-question" type="x-tmpl-mustache">
+      <div class="circle circle-single quiz-circle">?</div>
+      <h3>Question</h3><h6 class="sidebar-text">Find the Constellation</h6>
+      <p class="sidebar-text">Where is {{constName}} located?</p>
+      <div>
+		<div class="sidebar-box">
+		  <p>Line up the crosshair with the center of the constellation.</p>
+          <p>When found, press enter to submit your answer.</p>
+		</div>
+	  </div>
+    </script>
+
+    <script id="leader" type="x-tmpl-mustache">
+      <h3 class="leaderboard-header">Challenge finished! You scored {{score}} points.  </h3>
+      <table class="table leaderboard-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+				{{#person}}
+					<tr>
+						<th>{{rank}}</th>
+						<th>{{name}}</th>
+						<th>{{score}}</th>
+					</tr>
+				{{/person}}
+				</tbody>
+      </table>
+
+      <div class="btn btn-primary-outline btn-text" data-reset>Return to Firmament</div>
+    </script>
+
+    <script id="lobby-start" type="x-tmpl-mustache">
+      <h3 class="leaderboard-header">Share the link below to invite players to this lobby.</h3>
+      <div>
+        <strong>Invitation URL: </strong>
+        <a class="selectable" href="https://firmament.space/#!/join/{{lobbyId}}">
+          https://firmament.space/#!/join/{{lobbyId}}
+        </a>
+      </div>
+      <table class="table leaderboard-table">
+        <caption style="caption-side: top;">Current lobby members</caption>
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+				{{#person}}
+					<tr>
+						<th>{{player}}</th>
+						<th>{{status}}</th>
+					</tr>
+				{{/person}}
+				</tbody>
+      </table>
+	  {{#host}}
+        <div class="btn btn-primary-outline btn-text" data-start>Start Game</div>
+      {{/host}}
+      <!-- LEAVE LOBBY TODO
+      <div class="btn btn-primary-outline btn-text" data-reset>Return to Firmament</div>
+      -->
+    </script>
+
+    <script id="lobby-results" type="x-tmpl-mustache">
+      <h3 class="leaderboard-header">Game over! Results will be updated below.</h3>
+      <table class="table leaderboard-table">
+        <caption style="caption-side: top;">Lobby resulst</caption>
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+				{{#person}}
+					<tr>
+						<th>{{player}}</th>
+						<th>{{score}}</th>
+					</tr>
+				{{/person}}
+				</tbody>
+      </table>
+      <div class="btn btn-primary-outline btn-text" data-end>Leave Lobby</div>
+    </script>
+
+
+    <!-- HEADERS -->
+      
+    <h3 class="header-logo masthead-brand">
+      <img class="logo" src="assets/img/logo.png" alt="Firmament" draggable="false">
+      <a href="#about">
+        Firmament
+      </a>
+    </h3>
+    
+    <nav class="header-links nav nav-masthead">
+      <div id="signin" class="collapse">
+        <a class="nav-link" href="#signup">Sign Up</a>
+        <a class="nav-link" href="#login">Login</a>
+      </div>
+      <div id="user-block" class="collapse">
+        <h4 class="masthead-brand" id="user-name">Name Surname</h4>
+        <a class="label label-exp action-label nav-lab" id="challenge-mode">
+          Challenge Mode
+        </a>
+        <a class="nav-link" href="#" id="user-logout">Logout</a>
+      </div>
+    </nav>
+
+    <div id="crosshair" class="collapse" style="
+      position: absolute;
+      left: calc(50% - 18px);
+      top: calc(50% - 21px);">
+      <!-- crosshair -->
+      <i class="fa fa-crosshairs" aria-hidden="true"
+         style="font-size: 42px; color: #00ff00;"></i>
+    </div>
+
+    <!-- FRONT PAGE -->
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="cover-heading">
+              Learn to navigate the night sky.
+            </h1>
+            <p class="lead">
+              <span id="start-button" class="btn btn-lg btn-primary-outline 
+              btn-text btn-cover start">Begin</span>
+            </p>
+          </div>
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Currently under development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LOGIN FORM -->
+
+    <div class="modal fade" id="login" tabindex="-1" 
+    role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" 
+            aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Login to Firmament</h4>
+          </div>
+          <div class="modal-body">
+            <form id="login-form" class="form-input">
+              <div class="form-group">
+                <label>Email address
+                  <input name="email" type="email" class="form-control" 
+                  placeholder="Email">
+                </label>
+              </div>
+              <div class="form-group">
+                <label>Password
+                  <input name="password" type="password" class="form-control" 
+                  placeholder="Password">
+                </label>
+              </div>
+              <div class="form-group">
+                <a class="help-block" href="#">
+                  <em>Forgot your password?</em>
+                </a>
+              </div>
+              <div id="login-error" class="bg-danger collapse">
+              </div>
+              <button type="submit" class="btn btn-sm 
+                btn-primary-outline">Login</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            You don't have an account?
+            <a href="#signup">
+              <strong>Sign up</strong>
+            </a>.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SIGNUP FORM -->
+    
+    <div class="modal fade" id="signup" tabindex="-1" 
+    role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" 
+            aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Welcome to Firmament</h4>
+          </div>
+          <div class="modal-body">
+            <form id="signup-form" class="form-input">
+              <div class="form-group">
+                <label>First name
+                  <input name="first_name" type="text" class="form-control" 
+                  placeholder="First name">
+                </label>
+              </div>
+              <div class="form-group">
+                <label>Last name
+                  <input name="last_name" type="text" class="form-control" 
+                  placeholder="Last name">
+                </label>
+              </div>
+              <div class="form-group">
+                <label>Email address
+                  <input name="email" type="email" class="form-control" 
+                  placeholder="Email ">
+                </label>
+              </div>
+              <div class="form-group">
+                <label>Password
+                  <input name="password" type="password" class="form-control" 
+                  placeholder="Password">
+                </label>
+              </div>
+              <div class="form-group">
+                Sign up and accept the 
+                <a class="help-block" href="#"><em>Terms of Use</em></a>.
+              </div>
+              <div id="signup-error" class="bg-danger collapse">
+              </div>
+                <button type="submit" class="btn btn-sm 
+                btn-primary-outline">Sign Up</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            Already have an account?
+            <a href="#login">
+              <strong>Login</strong>
+            </a>.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKY SETTINGS -->
+    
+    <div class="modal fade" id="skyset" tabindex="-1" 
+    role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" 
+            aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Sky Settings</h4>
+          </div>
+          <form id="settings-form">
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Latitude
+                  <input name="latitude" class="form-control" 
+                  id="latitude-input" placeholder="Latitude">
+                </label>
+              </div>
+              <div class="form-group">
+                <label>Longitude
+                  <input name="longitude" class="form-control" 
+                  id="longitude-input" placeholder="Longitude">
+                </label>
+              </div>
+              <div class="form-group">
+                <label>Date
+                  <input name="datetime" class="form-control" 
+                  id="datetime-input" placeholder="YYYY-MM-DD HH:mm">
+                </label>
+              </div>
+              <div id="settings-error" class="bg-danger collapse">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-sm btn-primary-outline">
+                Update
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+        <!-- WELCOME MODAL -->
+        
+        <div class="modal fade" id="instructions" tabindex="-1" 
+        role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" 
+                aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <i class="fa fa-lg fa-space-shuttle fa-rotate-270"></i>
+                <h4 class="modal-title">Ready to launch!</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Dear Explorer, welcome to Firmament!<br>
+                  This is all you need to know to start.
+                </p>
+                <div class="instruction-list">
+                  <div class="col-xs-6">
+                    <ul class="fa-ul">
+                      <li class="instruction">
+                        <i class="fa-li fa fa-tree"></i>
+                        <strong>Ground. </strong>
+                        Show the ground below.
+                      </li>
+                      <li class="instruction">
+                        <i class="fa-li fa fa-crosshairs"></i>
+                        <strong>Guides. </strong>
+                        Show the constellation lines.
+                      </li>
+                      <li class="instruction">
+                        <i class="fa-li fa fa-compass"></i>
+                        <strong>Compass. </strong>
+                        Show the cardinal points.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-6">
+                    <ul class="fa-ul">
+                      <li class="instruction">
+                        <i class="fa-li fa fa-tag"></i>
+                        <strong>Labels. </strong>
+                        Show the constellation names
+                        (disabled during a test).
+                      </li>
+                      <li class="instruction">
+                        <i class="fa-li fa fa-bars"></i>
+                        <strong>Sidebar. </strong>
+                        Show the exploration sidebar.
+                      </li>
+                    </ul>
+                  </div>
+                  <p>
+                    <i class="fa fa-fast-backward"></i>
+                    <i class="fa fa-play"></i>
+                    <i class="fa fa-pause"></i>
+                    <i class="fa fa-fast-forward"></i>
+                    Use these buttons to control time advancement.
+                    Keep clicking to increase speed.
+                  </p>
+                  <p>
+                    <strong>9:41am </strong><i></i>
+                    Click on the date, time or location to open 
+                    the settings panel and edit these settings.
+                  </p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-sm btn-primary-outline" 
+                data-dismiss="modal">Got it</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ABOUT MODAL -->
+        
+        <div class="modal fade" id="about" tabindex="-1" 
+        role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" 
+                aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">About Firmament</h4>
+              </div>
+              <div class="modal-body">
+                  <p>Firmament is a project developed by</p>
+                  <p>
+                    Oliver Brown<br>
+                    Dylan Gape<br>
+                    Giacomo Guerci<br>
+                    Frances Tibble
+                  </p>
+                  <p>at Imperial College London<br>
+                    in May-June 2016.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-sm btn-primary-outline" 
+                data-dismiss="modal">Dismiss</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- CHALLENGE MODE MODAL -->
+      <div class="modal fade" id="challenge-select" tabindex="-1" 
+        role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" 
+                aria-label="Close"><span aria-hidden="true">&times;</span>
+              </button>
+              <i class="fa fa-lg fa-space-shuttle fa-rotate-270"></i>
+              <h4 class="modal-title">Challenge Mode</h4>
+            </div>
+            <div class="modal-body">
+              <div class="container instruction-list">
+                <div class="col-xs-6">
+                  <ul class="challenge-ul">
+                    <li class="instruction">
+                      <strong>Single Player</strong>
+                    </li>
+                    <li class="instruction">
+                      Name as many constellations as you can within the time limit.
+                    </li>
+                    <li class="instruction">
+                      <button type="submit" id="challenge-mode-single" 
+                              class="btn btn-sm btn-primary-outline" 
+                              data-dismiss="modal">Play Now</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-6">
+                  <ul class="challenge-ul">
+                    <li class="instruction">
+                      <strong>Multiplayer</strong>
+                    </li>
+                    <li class="instruction">
+                      Play with up to 4 players. Find constellations to gain points.
+                    </li>
+                    <li class="instruction">
+                      <button type="submit" id="multiplayer-create" 
+                              class="btn btn-sm btn-primary-outline" 
+                              data-dismiss="modal">Create Game</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- SIDEBAR -->
+    <div id="sidebar" class="collapse">
+			<!-- templates inserted dynamically -->
+    </div>
+
+    <!-- LEADERBOARD -->
+    <div id="leaderboard" class="collapse">
+			<!-- templates inserted dynamically -->
+    </div>
+
+    <!-- LOBBY -->
+    <div id="lobby-wait" class="collapse">
+            <!-- templates inserted dynamically -->
+    </div>
+
+    <!-- FOOTER BAR -->
+    
+    <div id="gui" class="no-select">
+      <nav class="navbar navbar-fixed-bottom navbar-dark">
+        <ul class="nav navbar-nav">
+          <li class="nav-item nav-lab">
+            <a id="instr-button" href="#instructions">
+              <!-- instructions --> 
+              <i class="fa fa-lg fa-question-circle ttip ttip-r">
+                <span class="ttip-text">Need Help?</span>
+              </i>
+            </a>
+          </li>
+          <li id="gui-location">
+            <span class="nav-item nav-l nav-text">
+              The sky at
+            </span>
+            <span class="nav-item">
+              <a class="navbar-brand" href="#skyset" id="location">
+              </a>
+            </span>
+          </li>
+          <li id="large-datetime">
+            <span class="nav-item nav-l nav-text">
+              on
+            </span>
+            <span class="nav-item">
+              <a class="navbar-brand" href="#skyset" id="date">
+              </a>
+            </span>                  
+            <span class="nav-item nav-l nav-text">
+              at
+            </span>
+            <span class="nav-item">
+              <a class="navbar-brand" href="#skyset" id="time">
+              </a>
+            </span>
+          </li>
+          <li id="small-datetime">
+            <span class="nav-item nav-l nav-text">
+              on
+            </span>
+            <span class="nav-item">
+              <a class="navbar-brand" href="#skyset" id="datetime">
+              </a>
+            </span>                  
+          </li>
+          <li id="mobile-sky-control">
+            <span class="navbar-brand">
+              Sky Settings
+            </span>
+            <span class="nav-item nav-lab">
+              <a class="label label-nav action-label" 
+              id="mobile-skyset" href="#skyset">Edit</a>
+            </span>
+          </li>
+        </ul> 
+
+        <ul class="nav navbar-nav pull-xs-right">
+          <li class="nav-item nav-r">
+            <i class="fa fa-lg fa-fast-backward"></i>
+          </li>
+          <li class="nav-item nav-r">
+            <i class="fa fa-lg fa-play"></i>
+          </li>
+          <li class="nav-item nav-r">
+            <i class="fa fa-lg fa-pause"></i>
+          </li>
+          <li class="nav-item nav-r">
+            <i class="fa fa-lg fa-fast-forward"></i>
+          </li>
+
+          <li class="nav-item nav-lab"></li>
+          <li class="nav-item nav-lab"></li>
+
+          <li class="nav-item nav-lab">
+            <span class="setting-icon setting-icon-on" data-toggle="ground">
+              <!-- ground --> 
+              <i class="fa fa-lg fa-tree ttip ttip-r">
+                <span class="ttip-text">Toggle Ground</span>
+              </i>
+            </span>
+          </li>
+          <li class="nav-item nav-lab">
+            <span class="setting-icon setting-icon-on" 
+            data-toggle="constellations">
+              <!-- constellation --> 
+              <i class="fa fa-lg fa-crosshairs ttip ttip-r">
+                <span class="ttip-text">Toggle Guides</span>
+              </i>
+            </span>
+          </li>
+          <li class="nav-item nav-lab" id="label-button-container">
+            <span class="setting-icon" data-toggle="labels">
+              <!-- labels --> 
+              <i class="fa fa-lg fa-tag ttip ttip-r">
+                <span class="ttip-text">Toggle Labels</span>
+              </i>
+            </span>
+          </li>
+          <li class="nav-item nav-lab">
+            <span class="setting-icon setting-icon-on" data-toggle="compass">
+              <!-- compass --> 
+              <i class="fa fa-lg fa-compass ttip ttip-r">
+                <span class="ttip-text">Toggle Compass</span>
+              </i>
+            </span>
+          </li>
+          <li class="nav-item nav-lab">
+            <span class="setting-icon setting-icon-on disabled" 
+            id="sidebar-button">
+              <!-- sidebar --> 
+              <i class="fa fa-lg fa-bars ttip ttip-r">
+                <span class="ttip-text">Toggle Sidebar</span>
+              </i>
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+    <script data-main="assets/js/main" src="assets/js/require.js"></script>
+  </body>
+</html>

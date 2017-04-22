@@ -1,0 +1,277 @@
+[
+  {
+    "numConstellations": 5,
+    "name": "Orion",
+    "info": "This family represents a hunting scene. It includes Orion, the hunter, his dogs and Lepus, the hare.",
+    "groups": [
+      {
+        "constellations": [
+          "Orion",
+          "Lepus",
+          "Canis Major",
+          "Monoceros",
+          "Canis Minor"
+        ],
+        "level": 1
+      }
+    ]
+  },
+  {
+    "numConstellations": 12,
+    "name": "Zodiacal",
+    "info": "This family occupies the ecliptic plane, a band of sky the sun seems to cross from Earth's perspective.",
+    "groups": [
+      {
+        "constellations": [
+          "Aries",
+          "Taurus",
+          "Gemini"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Cancer",
+          "Leo",
+          "Virgo"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Libra",
+          "Scorpius",
+          "Sagittarius"
+        ],
+        "level": 3
+      },
+      {
+        "constellations": [
+          "Capricornus",
+          "Aquarius",
+          "Pisces"
+        ],
+        "level": 4
+      }
+    ]
+  },
+  {
+    "numConstellations": 10,
+    "name": "Ursa Major",
+    "info": "This family of constellations can be seen in the northern hemisphere as it circles the northern celestial pole.",
+    "groups": [
+      {
+        "constellations": [
+          "Ursa Major",
+          "Leo Minor",
+          "Lynx"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Corona Borealis",
+          "Bootes",
+          "Canes Venatici",
+          "Coma Berenices"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Ursa Minor",
+          "Draco",
+          "Camelopardalis"
+        ],
+        "level": 3
+      }
+    ]
+  },
+  {
+    "numConstellations": 9,
+    "name": "Perseus",
+    "info": "This family tells the story of Perseus, the hero who saved Andromeda from the sea monster Cetus.",
+    "groups": [
+      {
+        "constellations": [
+          "Triangulum",
+          "Perseus",
+          "Auriga"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Lacerta",
+          "Cepheus",
+          "Cassiopeia"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Andromeda",
+          "Pegasus",
+          "Cetus"
+        ],
+        "level": 3
+      }
+    ]
+  },
+  {
+    "numConstellations": 20,
+    "name": "Hercules",
+    "info": "This family tells the story of Hercules, the hero who slain the Nemean Lion and the nine-headed monster Hydra.",
+    "groups": [
+      {
+        "constellations": [
+          "Hercules",
+          "Cygnus",
+          "Lyra",
+          "Vulpecula"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Ophiuchus",
+          "Serpens Caput",
+          "Serpens Cauda",
+          "Corona Australis"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Sagitta",
+          "Aquila",
+          "Scutum",
+          "Ara"
+        ],
+        "level": 3
+      },
+      {
+        "constellations": [
+          "Sextans",
+          "Hydra",
+          "Crater",
+          "Corvus"
+        ],
+        "level": 4
+      },
+      {
+        "constellations": [
+          "Crux",
+          "Centaurus",
+          "Lupus",
+          "Triangulum Australe"
+        ],
+        "level": 5
+      }
+    ]
+  },
+  {
+    "numConstellations": 11,
+    "name": "Bayer",
+    "info": "This family of southern constellations was invented by Johann Bayer and represents a series of exotic animals.",
+    "groups": [
+      {
+        "constellations": [
+          "Phoenix",
+          "Grus",
+          "Tucana",
+          "Pavo"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Apus",
+          "Volans",
+          "Chamaeleon",
+          "Musca"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Hydrus",
+          "Dorado",
+          "Indus"
+        ],
+        "level": 3
+      }
+    ]
+  },
+  {
+    "numConstellations": 9,
+    "name": "Heavenly Waters",
+    "info": "It includes the four constellations which made up Argo Navis, the ship used by Jason and the Argonauts.",
+    "groups": [
+      {
+        "constellations": [
+          "Vela",
+          "Puppis",
+          "Carina"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Pyxis",
+          "Columba",
+          "Eridanus"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Delphinus",
+          "Equuleus",
+          "Piscis Austrinus"
+        ],
+        "level": 3
+      }
+    ]
+  },
+  {
+    "numConstellations": 13,
+    "name": "La Caille",
+    "info": "This family was invented by French astronomer La Caille in 1756 and represents scientific instruments.",
+    "groups": [
+      {
+        "constellations": [
+          "Pictor",
+          "Horologium",
+          "Reticulum",
+          "Caelum"
+        ],
+        "level": 1
+      },
+      {
+        "constellations": [
+          "Octans",
+          "Mensa",
+          "Antlia"
+        ],
+        "level": 2
+      },
+      {
+        "constellations": [
+          "Fornax",
+          "Sculptor",
+          "Microscopium"
+        ],
+        "level": 3
+      },
+      {
+        "constellations": [
+          "Circinus",
+          "Norma",
+          "Telescopium"
+        ],
+        "level": 4
+      }
+    ]
+  }
+]

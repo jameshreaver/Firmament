@@ -1,0 +1,3944 @@
+[
+  {
+    "origin": "Ancient",
+    "info": "Aquila, the Eagle, was Zeus's bird. Aquila's most reknown task was to carry Ganymede to the heavens to serve as Zeus's cup bearer.",
+    "short": "Aql",
+    "name": "Aquila",
+    "family": "Hercules",
+    "luminary": "\u03b1 Aquilae",
+    "month": "September",
+    "meaning": "The Eagle",
+    "edges": [
+      {
+        "start": 98036,
+        "end": 97649
+      },
+      {
+        "start": 97649,
+        "end": 97278
+      },
+      {
+        "start": 97649,
+        "end": 95501
+      },
+      {
+        "start": 95501,
+        "end": 97804
+      },
+      {
+        "start": 99473,
+        "end": 97804
+      },
+      {
+        "start": 95501,
+        "end": 93747
+      },
+      {
+        "start": 93747,
+        "end": 93244
+      },
+      {
+        "start": 95501,
+        "end": 93805
+      }
+    ],
+    "ra": -1.16,
+    "dec": 0.1
+  },
+  {
+    "origin": "Ancient",
+    "info": "Andromeda is the daughter of Cepheus and Cassiopeia of Ethiopia. Chained to a rock as a sacrifice to Cetus, she was saved by Perseus.",
+    "short": "And",
+    "name": "Andromeda",
+    "family": "Perseus",
+    "luminary": "\u03b1 Andromedae",
+    "month": "November",
+    "meaning": "Princess of Ethiopia",
+    "edges": [
+      {
+        "start": 677,
+        "end": 3092
+      },
+      {
+        "start": 3092,
+        "end": 5447
+      },
+      {
+        "start": 9640,
+        "end": 5447
+      },
+      {
+        "start": 5447,
+        "end": 4436
+      },
+      {
+        "start": 4436,
+        "end": 3881
+      }
+    ],
+    "ra": 0.25,
+    "dec": 0.63
+  },
+  {
+    "origin": "1763",
+    "info": "Sculptor was one of the most recent constellation named by Nicolas Louis de La Caille. It was originally named \"The Sculptor's Workshop\".",
+    "short": "Scl",
+    "name": "Sculptor",
+    "family": "La Caille",
+    "luminary": "\u03b1 Sculptoris",
+    "month": "November",
+    "meaning": "The Sculptor",
+    "edges": [
+      {
+        "start": 116231,
+        "end": 4577
+      },
+      {
+        "start": 4577,
+        "end": 115102
+      },
+      {
+        "start": 115102,
+        "end": 116231
+      }
+    ],
+    "ra": -0.01,
+    "dec": -0.58
+  },
+  {
+    "origin": "Ancient",
+    "info": "Ara is named after the altar of the centaur Chiron, the wisest creature on earth. Ara was also known as the altar Noah built after the great flood.",
+    "short": "Ara",
+    "name": "Ara",
+    "family": "Hercules",
+    "luminary": "\u03b2 Arae",
+    "month": "July",
+    "meaning": "The Altar",
+    "edges": [
+      {
+        "start": 88714,
+        "end": 85792
+      },
+      {
+        "start": 85792,
+        "end": 83081
+      },
+      {
+        "start": 83081,
+        "end": 82363
+      },
+      {
+        "start": 82363,
+        "end": 85727
+      },
+      {
+        "start": 85727,
+        "end": 85267
+      },
+      {
+        "start": 85267,
+        "end": 85258
+      },
+      {
+        "start": 85258,
+        "end": 88714
+      }
+    ],
+    "ra": -1.73,
+    "dec": -0.97
+  },
+  {
+    "origin": "Ancient",
+    "info": "Libra, symbol of justice and balance, received its name when it was noticed that the Sun passes through it during the autumnal equinox.",
+    "short": "Lib",
+    "name": "Libra",
+    "family": "Zodiacal",
+    "luminary": "\u03b2 Librae",
+    "month": "June",
+    "meaning": "The Scales",
+    "edges": [
+      {
+        "start": 77853,
+        "end": 76333
+      },
+      {
+        "start": 76333,
+        "end": 74785
+      },
+      {
+        "start": 74785,
+        "end": 72622
+      },
+      {
+        "start": 72622,
+        "end": 73714
+      },
+      {
+        "start": 73714,
+        "end": 76333
+      }
+    ],
+    "ra": -2.27,
+    "dec": -0.29
+  },
+  {
+    "origin": "Ancient",
+    "info": "Cetus was the sea monster sent by Neptune to devour Andromeda. Perseus defeated Cetus turning it into stone with the head of Medusa.",
+    "short": "Cet",
+    "name": "Cetus",
+    "family": "Perseus",
+    "luminary": "\u03b2 Ceti",
+    "month": "December",
+    "meaning": "The Sea Monster",
+    "edges": [
+      {
+        "start": 10324,
+        "end": 11484
+      },
+      {
+        "start": 8102,
+        "end": 3419
+      },
+      {
+        "start": 3419,
+        "end": 1562
+      },
+      {
+        "start": 3419,
+        "end": 5364
+      },
+      {
+        "start": 5364,
+        "end": 6537
+      },
+      {
+        "start": 6537,
+        "end": 8645
+      },
+      {
+        "start": 8645,
+        "end": 11345
+      },
+      {
+        "start": 11345,
+        "end": 12390
+      },
+      {
+        "start": 12390,
+        "end": 12770
+      },
+      {
+        "start": 12770,
+        "end": 11783
+      },
+      {
+        "start": 11783,
+        "end": 8102
+      },
+      {
+        "start": 10826,
+        "end": 12390
+      },
+      {
+        "start": 10826,
+        "end": 12387
+      },
+      {
+        "start": 12387,
+        "end": 12706
+      },
+      {
+        "start": 12706,
+        "end": 14135
+      },
+      {
+        "start": 14135,
+        "end": 13954
+      },
+      {
+        "start": 13954,
+        "end": 12828
+      },
+      {
+        "start": 12828,
+        "end": 11484
+      },
+      {
+        "start": 11484,
+        "end": 12093
+      },
+      {
+        "start": 12093,
+        "end": 12706
+      }
+    ],
+    "ra": 0.57,
+    "dec": -0.07
+  },
+  {
+    "origin": "Ancient",
+    "info": "In Greek mythology, the Aries represents the ram from which the golden fleece was obtained in the story of Jason and the Argonauts.",
+    "short": "Ari",
+    "name": "Aries",
+    "family": "Zodiacal",
+    "luminary": "\u03b1 Arietis",
+    "month": "December",
+    "meaning": "The Ram",
+    "edges": [
+      {
+        "start": 13209,
+        "end": 9884
+      },
+      {
+        "start": 9884,
+        "end": 8903
+      },
+      {
+        "start": 8903,
+        "end": 8832
+      }
+    ],
+    "ra": 0.57,
+    "dec": 0.4
+  },
+  {
+    "origin": "1692",
+    "info": "Scutum was invented by the Polish astronomer Hevelius in honour of the victory of the King of Poland Sobieskii against the Turks in 1683.",
+    "short": "Sct",
+    "name": "Scutum",
+    "family": "Hercules",
+    "luminary": "\u03b1 Scuti",
+    "month": "August",
+    "meaning": "The Shield",
+    "edges": [
+      {
+        "start": 92175,
+        "end": 92202
+      },
+      {
+        "start": 92202,
+        "end": 92814
+      },
+      {
+        "start": 92814,
+        "end": 90595
+      },
+      {
+        "start": 90595,
+        "end": 91117
+      },
+      {
+        "start": 91117,
+        "end": 92175
+      }
+    ],
+    "ra": -1.38,
+    "dec": -0.17
+  },
+  {
+    "origin": "1763",
+    "info": "Pyxis represents a mariner's compass. It used to be part of the constellation Argo Navis, before this was split into four smaller ones.",
+    "short": "Pyx",
+    "name": "Pyxis",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b1 Pyxidis",
+    "month": "March",
+    "meaning": "The Compass Box",
+    "edges": [
+      {
+        "start": 42515,
+        "end": 42828
+      },
+      {
+        "start": 42828,
+        "end": 43409
+      }
+    ],
+    "ra": 2.29,
+    "dec": -0.56
+  },
+  {
+    "origin": "Ancient",
+    "info": "Bootes is the most ancient constellation in the sky. It eternally circles the Bears, Ursa Major and Ursa Minor, around the North Pole.",
+    "short": "Boo",
+    "name": "Bootes",
+    "family": "Ursa Major",
+    "luminary": "\u03b1 Bootis",
+    "month": "June",
+    "meaning": "The Bear Driver",
+    "edges": [
+      {
+        "start": 71795,
+        "end": 69673
+      },
+      {
+        "start": 69673,
+        "end": 72105
+      },
+      {
+        "start": 72105,
+        "end": 74666
+      },
+      {
+        "start": 74666,
+        "end": 73555
+      },
+      {
+        "start": 73555,
+        "end": 71075
+      },
+      {
+        "start": 71075,
+        "end": 71053
+      },
+      {
+        "start": 71053,
+        "end": 69673
+      },
+      {
+        "start": 69673,
+        "end": 67927
+      },
+      {
+        "start": 67927,
+        "end": 67459
+      }
+    ],
+    "ra": -2.48,
+    "dec": 0.46
+  },
+  {
+    "origin": "1763",
+    "info": "Caelum, one of the constellations named by Nicolas Louis de La Caille, resembles a burin, which is an engravers tool similar to a chisel.",
+    "short": "Cae",
+    "name": "Caelum",
+    "family": "La Caille",
+    "luminary": "\u03b1 Caeli",
+    "month": "January",
+    "meaning": "The Sculptor's Chisel",
+    "edges": [
+      {
+        "start": 21060,
+        "end": 21770
+      },
+      {
+        "start": 21770,
+        "end": 21861
+      }
+    ],
+    "ra": 1.21,
+    "dec": -0.72
+  },
+  {
+    "origin": "1603",
+    "info": "Chamaeleon was named by Johann Bayer and it represents the color-changing lizard of the same name. It is hard to spot in northern latitudes.",
+    "short": "Cha",
+    "name": "Chamaeleon",
+    "family": "Bayer",
+    "luminary": "\u03b1 Chamaeleontis",
+    "month": "April",
+    "meaning": "The Chameleon",
+    "edges": [
+      {
+        "start": 40702,
+        "end": 51839
+      },
+      {
+        "start": 51839,
+        "end": 60000
+      }
+    ],
+    "ra": 2.73,
+    "dec": -1.37
+  },
+  {
+    "origin": "Ancient",
+    "info": "Cancer, the Crab, was sent by Hera to distract Hercules fighting against Hydra, the multi-headed monster. Hercules crushed it with his foot.",
+    "short": "Cnc",
+    "name": "Cancer",
+    "family": "Zodiacal",
+    "luminary": "\u03b2 Cancri",
+    "month": "March",
+    "meaning": "The Crab",
+    "edges": [
+      {
+        "start": 43103,
+        "end": 42806
+      },
+      {
+        "start": 42806,
+        "end": 40843
+      },
+      {
+        "start": 42806,
+        "end": 42911
+      },
+      {
+        "start": 42911,
+        "end": 40526
+      },
+      {
+        "start": 42911,
+        "end": 44066
+      }
+    ],
+    "ra": 2.26,
+    "dec": 0.34
+  },
+  {
+    "origin": "Ancient",
+    "info": "Capricornus is depicted as a goat with a fish tail, from the god Pan whose lower body turned into a fish, when he jumped into the river Nile.",
+    "short": "Cap",
+    "name": "Capricornus",
+    "family": "Zodiacal",
+    "luminary": "\u03b4 Capricorni",
+    "month": "September",
+    "meaning": "The Sea Goat",
+    "edges": [
+      {
+        "start": 100064,
+        "end": 100345
+      },
+      {
+        "start": 100345,
+        "end": 104139
+      },
+      {
+        "start": 104139,
+        "end": 105515
+      },
+      {
+        "start": 105515,
+        "end": 106985
+      },
+      {
+        "start": 106985,
+        "end": 107556
+      },
+      {
+        "start": 105515,
+        "end": 105881
+      },
+      {
+        "start": 105881,
+        "end": 104139
+      },
+      {
+        "start": 100345,
+        "end": 102485
+      },
+      {
+        "start": 104139,
+        "end": 102978
+      }
+    ],
+    "ra": -0.77,
+    "dec": -0.33
+  },
+  {
+    "origin": "1763",
+    "info": "This constellation was originally part of Argo Navis, the ship sailed by Jason and the Argonauts as they searched for the golden fleece.",
+    "short": "Car",
+    "name": "Carina",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b1 Carinae",
+    "month": "March",
+    "meaning": "The Kneel",
+    "edges": [
+      {
+        "start": 45238,
+        "end": 50099
+      },
+      {
+        "start": 50099,
+        "end": 52419
+      },
+      {
+        "start": 52419,
+        "end": 52468
+      },
+      {
+        "start": 52468,
+        "end": 54463
+      },
+      {
+        "start": 54463,
+        "end": 53253
+      },
+      {
+        "start": 53253,
+        "end": 51232
+      },
+      {
+        "start": 51232,
+        "end": 50371
+      },
+      {
+        "start": 50371,
+        "end": 45556
+      },
+      {
+        "start": 42568,
+        "end": 41037
+      },
+      {
+        "start": 41037,
+        "end": 30438
+      },
+      {
+        "start": 45080,
+        "end": 45556
+      },
+      {
+        "start": 45080,
+        "end": 42568
+      },
+      {
+        "start": 30438,
+        "end": 31685
+      },
+      {
+        "start": 41037,
+        "end": 39429
+      }
+    ],
+    "ra": 2.46,
+    "dec": -1.02
+  },
+  {
+    "origin": "Ancient",
+    "info": "Cassiopeia was the mother of Andromeda. Chained to her throne as punishment, she can be seen hanging upside down as she rotates.",
+    "short": "Cas",
+    "name": "Cassiopeia",
+    "family": "Perseus",
+    "luminary": "\u03b1 Cassiopeiae",
+    "month": "March",
+    "meaning": "Queen of Ethiopia",
+    "edges": [
+      {
+        "start": 8886,
+        "end": 6686
+      },
+      {
+        "start": 6686,
+        "end": 4427
+      },
+      {
+        "start": 4427,
+        "end": 3179
+      },
+      {
+        "start": 3179,
+        "end": 746
+      }
+    ],
+    "ra": 0.27,
+    "dec": 1.05
+  },
+  {
+    "origin": "Ancient",
+    "info": "Chiron was one of the Centaurs, beasts half-horse and half-human. Chiron was extremely wise and tutored Hercules and Jason.",
+    "short": "Cen",
+    "name": "Centaurus",
+    "family": "Hercules",
+    "luminary": "\u03b1 Centauris",
+    "month": "May",
+    "meaning": "The Centaur",
+    "edges": [
+      {
+        "start": 71683,
+        "end": 68702
+      },
+      {
+        "start": 68702,
+        "end": 66657
+      },
+      {
+        "start": 66657,
+        "end": 68002
+      },
+      {
+        "start": 68002,
+        "end": 68282
+      },
+      {
+        "start": 68282,
+        "end": 67472
+      },
+      {
+        "start": 67472,
+        "end": 67464
+      },
+      {
+        "start": 67464,
+        "end": 65936
+      },
+      {
+        "start": 65936,
+        "end": 65109
+      },
+      {
+        "start": 67464,
+        "end": 68933
+      },
+      {
+        "start": 67472,
+        "end": 71352
+      },
+      {
+        "start": 71352,
+        "end": 73334
+      },
+      {
+        "start": 68002,
+        "end": 61932
+      },
+      {
+        "start": 61932,
+        "end": 60823
+      },
+      {
+        "start": 60823,
+        "end": 59196
+      },
+      {
+        "start": 59196,
+        "end": 56480
+      },
+      {
+        "start": 56480,
+        "end": 56561
+      }
+    ],
+    "ra": -2.76,
+    "dec": -0.84
+  },
+  {
+    "origin": "Ancient",
+    "info": "Cepheus was the king of Ethiopia, husband of Cassiopeia and father of Andromeda, all of whom feature in the legend of Perseus.",
+    "short": "Cep",
+    "name": "Cepheus",
+    "family": "Perseus",
+    "luminary": "\u03b1 Cephei",
+    "month": "October",
+    "meaning": "King of Ethiopia",
+    "edges": [
+      {
+        "start": 109492,
+        "end": 112724
+      },
+      {
+        "start": 112724,
+        "end": 106032
+      },
+      {
+        "start": 106032,
+        "end": 105199
+      },
+      {
+        "start": 105199,
+        "end": 109492
+      },
+      {
+        "start": 112724,
+        "end": 116727
+      },
+      {
+        "start": 116727,
+        "end": 106032
+      }
+    ],
+    "ra": -0.55,
+    "dec": 1.11
+  },
+  {
+    "origin": "1603",
+    "info": "This constellation refers to Berenice, the wife of Ptolemy III of Egypt, whose beautiful long hair was given to Aphrodite as a gift.",
+    "short": "Com",
+    "name": "Coma Berenices",
+    "family": "Ursa Major",
+    "luminary": "\u03b2 Comae Berenices",
+    "month": "May",
+    "meaning": "Berenice's Hair",
+    "edges": [
+      {
+        "start": 64241,
+        "end": 64394
+      },
+      {
+        "start": 64394,
+        "end": 60742
+      }
+    ],
+    "ra": -2.9,
+    "dec": 0.43
+  },
+  {
+    "origin": "1692",
+    "info": "This constellations by Johannes Hevelius represents the dogs held on a leash by Bootes as he hunts for the bears Ursa Major and Ursa Minor.",
+    "short": "Cvn",
+    "name": "Canes Venatici",
+    "family": "Ursa Major",
+    "luminary": "\u03b1 Canum Venaticorum",
+    "month": "May",
+    "meaning": "The Hunting Dogs",
+    "edges": [
+      {
+        "start": 61317,
+        "end": 63125
+      }
+    ],
+    "ra": -2.95,
+    "dec": 0.7
+  },
+  {
+    "origin": "Ancient",
+    "info": "The god Hephaestus, who was crippled as a child, was believed to have invented the chariot to allow his son to move him around more easily.",
+    "short": "Aur",
+    "name": "Auriga",
+    "family": "Perseus",
+    "luminary": "\u03b1 Aurigae",
+    "month": "January",
+    "meaning": "The Charioteer",
+    "edges": [
+      {
+        "start": 28380,
+        "end": 28360
+      },
+      {
+        "start": 28360,
+        "end": 24608
+      },
+      {
+        "start": 24608,
+        "end": 23453
+      },
+      {
+        "start": 23453,
+        "end": 23015
+      },
+      {
+        "start": 25428,
+        "end": 23015
+      },
+      {
+        "start": 25428,
+        "end": 28380
+      }
+    ],
+    "ra": 1.43,
+    "dec": 0.67
+  },
+  {
+    "origin": "1592",
+    "info": "This constellation represents the bird the Argonauts sent ahead to help them navigate the narrow passage at the mouth of the Black Sea.",
+    "short": "Col",
+    "name": "Columba",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b1 Columbae",
+    "month": "February",
+    "meaning": "The Dove",
+    "edges": [
+      {
+        "start": 30277,
+        "end": 29807
+      },
+      {
+        "start": 29807,
+        "end": 28199
+      },
+      {
+        "start": 28199,
+        "end": 27628
+      },
+      {
+        "start": 27628,
+        "end": 28328
+      },
+      {
+        "start": 27628,
+        "end": 26634
+      },
+      {
+        "start": 26634,
+        "end": 25859
+      }
+    ],
+    "ra": 1.56,
+    "dec": -0.63
+  },
+  {
+    "origin": "1763",
+    "info": "This is another one of the southern constellations named by La Caille. It was named for its shape, which resembles a drawing compass.",
+    "short": "Cir",
+    "name": "Circinus",
+    "family": "La Caille",
+    "luminary": "\u03b1 Circini",
+    "month": "June",
+    "meaning": "The Compass",
+    "edges": [
+      {
+        "start": 71908,
+        "end": 75323
+      },
+      {
+        "start": 71908,
+        "end": 74824
+      }
+    ],
+    "ra": -2.32,
+    "dec": -1.07
+  },
+  {
+    "origin": "Ancient",
+    "info": "This represents the goblet of the god Apollo. It is the origin point of the Eta Craterids meteor shower, which occurs annually in mid-January.",
+    "short": "Crt",
+    "name": "Crater",
+    "family": "Hercules",
+    "luminary": "\u03b4 Crateris",
+    "month": "April",
+    "meaning": "The Cup",
+    "edges": [
+      {
+        "start": 53740,
+        "end": 54682
+      },
+      {
+        "start": 54682,
+        "end": 55705
+      },
+      {
+        "start": 55705,
+        "end": 55282
+      },
+      {
+        "start": 55282,
+        "end": 53740
+      },
+      {
+        "start": 55282,
+        "end": 55687
+      },
+      {
+        "start": 55687,
+        "end": 56633
+      },
+      {
+        "start": 56633,
+        "end": 58188
+      },
+      {
+        "start": 58188,
+        "end": 57283
+      },
+      {
+        "start": 57283,
+        "end": 55705
+      }
+    ],
+    "ra": 3,
+    "dec": -0.28
+  },
+  {
+    "origin": "Ancient",
+    "info": "This is an old constellation named by the astronomer Ptolemy, and it is believed to represent the crown worn by the centaur Sagittarius.",
+    "short": "CrA",
+    "name": "Corona Australis",
+    "family": "Hercules",
+    "luminary": "\u03b1 Coronae Australis",
+    "month": "April",
+    "meaning": "The Southern Crown",
+    "edges": [
+      {
+        "start": 91875,
+        "end": 92989
+      },
+      {
+        "start": 92989,
+        "end": 93174
+      },
+      {
+        "start": 93174,
+        "end": 93825
+      },
+      {
+        "start": 93825,
+        "end": 94114
+      },
+      {
+        "start": 94114,
+        "end": 94160
+      },
+      {
+        "start": 94160,
+        "end": 94005
+      },
+      {
+        "start": 94005,
+        "end": 93542
+      },
+      {
+        "start": 93542,
+        "end": 92953
+      },
+      {
+        "start": 91875,
+        "end": 90887
+      }
+    ],
+    "ra": -1.32,
+    "dec": -0.68
+  },
+  {
+    "origin": "Ancient",
+    "info": "It represents the crown created by the supreme goldsmith Hephaestus, and worn by Ariadne, the daughter of King Minos of Crete, at her wedding.",
+    "short": "CrB",
+    "name": "Corona Borealis",
+    "family": "Ursa Major",
+    "luminary": "\u03b1 Coronae Borealis",
+    "month": "June",
+    "meaning": "The Northern Crown",
+    "edges": [
+      {
+        "start": 76127,
+        "end": 75695
+      },
+      {
+        "start": 75695,
+        "end": 76267
+      },
+      {
+        "start": 76267,
+        "end": 76952
+      },
+      {
+        "start": 76952,
+        "end": 77512
+      },
+      {
+        "start": 77512,
+        "end": 78159
+      },
+      {
+        "start": 78159,
+        "end": 78493
+      }
+    ],
+    "ra": -2.16,
+    "dec": 0.49
+  },
+  {
+    "origin": "Ancient",
+    "info": "Apollo sent a crow to fetch water. It was condemned to endure eternal thirst for returning late, explaining why crows caw instead of singing.",
+    "short": "Crv",
+    "name": "Corvus",
+    "family": "Hercules",
+    "luminary": "\u03b3 Corvi",
+    "month": "May",
+    "meaning": "The Crow",
+    "edges": [
+      {
+        "start": 61174,
+        "end": 60965
+      },
+      {
+        "start": 60965,
+        "end": 59803
+      },
+      {
+        "start": 59803,
+        "end": 59316
+      },
+      {
+        "start": 59316,
+        "end": 59199
+      },
+      {
+        "start": 59316,
+        "end": 61359
+      },
+      {
+        "start": 61359,
+        "end": 60965
+      }
+    ],
+    "ra": -3.05,
+    "dec": -0.35
+  },
+  {
+    "origin": "1603",
+    "info": "Crux was used by sailors in the southern hemisphere as a navigational aid to help them locate the south celestial pole.",
+    "short": "Cru",
+    "name": "Crux",
+    "family": "Hercules",
+    "luminary": "\u03b1 Crucis",
+    "month": "May",
+    "meaning": "The Southern Cross",
+    "edges": [
+      {
+        "start": 61084,
+        "end": 60718
+      },
+      {
+        "start": 62434,
+        "end": 59747
+      }
+    ],
+    "ra": -3.01,
+    "dec": -1.04
+  },
+  {
+    "origin": "Ancient",
+    "info": "The swan is one of two birds along with Aquila, the Eagle, which are hunted by Hercules. The swan was the pet of the Queen Cassiopeia.",
+    "short": "Cyg",
+    "name": "Cygnus",
+    "family": "Hercules",
+    "luminary": "\u03b1 Cygni",
+    "month": "August",
+    "meaning": "The Swan",
+    "edges": [
+      {
+        "start": 94779,
+        "end": 95853
+      },
+      {
+        "start": 95853,
+        "end": 97165
+      },
+      {
+        "start": 97165,
+        "end": 100453
+      },
+      {
+        "start": 100453,
+        "end": 102098
+      },
+      {
+        "start": 100453,
+        "end": 102488
+      },
+      {
+        "start": 102488,
+        "end": 104732
+      },
+      {
+        "start": 104732,
+        "end": 107310
+      },
+      {
+        "start": 100453,
+        "end": 98110
+      },
+      {
+        "start": 98110,
+        "end": 95947
+      }
+    ],
+    "ra": -0.98,
+    "dec": 0.68
+  },
+  {
+    "origin": "Ancient",
+    "info": "It is believed to represent a dolphin that helped Poseidon locate the mermaid Amphitrite. As a reward, Poseidon placed it among the stars.",
+    "short": "Del",
+    "name": "Delphinus",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b2 Delphini",
+    "month": "September",
+    "meaning": "The Dolphin",
+    "edges": [
+      {
+        "start": 101421,
+        "end": 101769
+      },
+      {
+        "start": 101769,
+        "end": 101958
+      },
+      {
+        "start": 101958,
+        "end": 102532
+      },
+      {
+        "start": 102532,
+        "end": 102281
+      },
+      {
+        "start": 102281,
+        "end": 101769
+      }
+    ],
+    "ra": -0.87,
+    "dec": 0.25
+  },
+  {
+    "origin": "1603",
+    "info": "This constellation is one of southern constellations named by Johann Bayer and refers to an iridescent sea fish known as a Pompanos.",
+    "short": "Dor",
+    "name": "Dorado",
+    "family": "Bayer",
+    "luminary": "\u03b2 Delphini",
+    "month": "September",
+    "meaning": "The Goldfish",
+    "edges": [
+      {
+        "start": 27100,
+        "end": 27890
+      },
+      {
+        "start": 27890,
+        "end": 26069
+      },
+      {
+        "start": 26069,
+        "end": 27100
+      },
+      {
+        "start": 26069,
+        "end": 21281
+      },
+      {
+        "start": 21281,
+        "end": 19893
+      }
+    ],
+    "ra": 1.36,
+    "dec": -1.04
+  },
+  {
+    "origin": "Ancient",
+    "info": "The dragon was Laden, chosen by Hera to guard to golden apples of immortality. It was slain by Hercules in the eleventh of his twelve labors.",
+    "short": "Dra",
+    "name": "Draco",
+    "family": "Ursa Major",
+    "luminary": "\u03b3 Draconis",
+    "month": "September",
+    "meaning": "The Dragon",
+    "edges": [
+      {
+        "start": 87585,
+        "end": 87833
+      },
+      {
+        "start": 87833,
+        "end": 85670
+      },
+      {
+        "start": 85670,
+        "end": 85829
+      },
+      {
+        "start": 85829,
+        "end": 87585
+      },
+      {
+        "start": 87585,
+        "end": 94376
+      },
+      {
+        "start": 94376,
+        "end": 97433
+      },
+      {
+        "start": 97433,
+        "end": 94648
+      },
+      {
+        "start": 94648,
+        "end": 89937
+      },
+      {
+        "start": 89937,
+        "end": 83895
+      },
+      {
+        "start": 83895,
+        "end": 80331
+      },
+      {
+        "start": 80331,
+        "end": 78527
+      },
+      {
+        "start": 78527,
+        "end": 75458
+      },
+      {
+        "start": 75458,
+        "end": 68756
+      },
+      {
+        "start": 68756,
+        "end": 61281
+      },
+      {
+        "start": 61281,
+        "end": 56211
+      }
+    ],
+    "ra": -1.87,
+    "dec": 1.1
+  },
+  {
+    "origin": "1763",
+    "info": "It represents to a carpenter's tool called a square, or a level. It is one of the constellations named by La Caille in the mid-eighteenth century.",
+    "short": "Nor",
+    "name": "Norma",
+    "family": "La Caille",
+    "luminary": "\u03b32 Normae",
+    "month": "July",
+    "meaning": "The Carpenter's Level",
+    "edges": [
+      {
+        "start": 79509,
+        "end": 80000
+      },
+      {
+        "start": 80000,
+        "end": 80582
+      },
+      {
+        "start": 80582,
+        "end": 78639
+      },
+      {
+        "start": 78639,
+        "end": 80000
+      },
+      {
+        "start": 78639,
+        "end": 79509
+      }
+    ],
+    "ra": -2.02,
+    "dec": -0.88
+  },
+  {
+    "origin": "Ancient",
+    "info": "It is represented as a long winding river starting from Orion in the north, and eventually ending in the south, at the border with Hydrus.",
+    "short": "Eri",
+    "name": "Eridanus",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b1 Eridani",
+    "month": "December",
+    "meaning": "The River",
+    "edges": [
+      {
+        "start": 7588,
+        "end": 9007
+      },
+      {
+        "start": 9007,
+        "end": 10602
+      },
+      {
+        "start": 10602,
+        "end": 11407
+      },
+      {
+        "start": 11407,
+        "end": 12413
+      },
+      {
+        "start": 12413,
+        "end": 12486
+      },
+      {
+        "start": 12486,
+        "end": 13847
+      },
+      {
+        "start": 13847,
+        "end": 15510
+      },
+      {
+        "start": 15510,
+        "end": 17797
+      },
+      {
+        "start": 17797,
+        "end": 17874
+      },
+      {
+        "start": 17874,
+        "end": 20042
+      },
+      {
+        "start": 20042,
+        "end": 20535
+      },
+      {
+        "start": 20535,
+        "end": 21393
+      },
+      {
+        "start": 21393,
+        "end": 17651
+      },
+      {
+        "start": 17651,
+        "end": 16611
+      },
+      {
+        "start": 16611,
+        "end": 15474
+      },
+      {
+        "start": 15474,
+        "end": 14146
+      },
+      {
+        "start": 14146,
+        "end": 12843
+      },
+      {
+        "start": 12843,
+        "end": 13701
+      },
+      {
+        "start": 13701,
+        "end": 15197
+      },
+      {
+        "start": 15197,
+        "end": 16537
+      },
+      {
+        "start": 16537,
+        "end": 17378
+      },
+      {
+        "start": 17378,
+        "end": 21444
+      },
+      {
+        "start": 21444,
+        "end": 22109
+      },
+      {
+        "start": 22109,
+        "end": 22701
+      },
+      {
+        "start": 22701,
+        "end": 23875
+      },
+      {
+        "start": 23875,
+        "end": 23972
+      },
+      {
+        "start": 23972,
+        "end": 21594
+      }
+    ],
+    "ra": 0.93,
+    "dec": -0.46
+  },
+  {
+    "origin": "Ancient",
+    "info": "It may represent the emblem of Diane and Apollo, Cupid's arrow. Other references say that Sagittarius shot the arrow at an unknown target.",
+    "short": "Sge",
+    "name": "Sagitta",
+    "family": "Hercules",
+    "luminary": "\u03b3 Sagittae",
+    "month": "September",
+    "meaning": "The Arrow",
+    "edges": [
+      {
+        "start": 96837,
+        "end": 97365
+      },
+      {
+        "start": 97365,
+        "end": 96757
+      },
+      {
+        "start": 97365,
+        "end": 98337
+      },
+      {
+        "start": 98337,
+        "end": 98920
+      }
+    ],
+    "ra": -1.09,
+    "dec": 0.33
+  },
+  {
+    "origin": "1763",
+    "info": "Named by La Caille, it represents a chemical furnace in honor of Antoine Lavoisier, who was guillotined in the French Revolution in 1794.",
+    "short": "For",
+    "name": "Fornax",
+    "family": "La Caille",
+    "luminary": "\u03b1 Fornacis",
+    "month": "December",
+    "meaning": "The Furnace",
+    "edges": [
+      {
+        "start": 13147,
+        "end": 14879
+      }
+    ],
+    "ra": 0.79,
+    "dec": -0.54
+  },
+  {
+    "origin": "Ancient",
+    "info": "This constellation was named after Castor and Pollux, two Greek heroes who were among the men Jason led on his voyages on the Argo.",
+    "short": "Gem",
+    "name": "Gemini",
+    "family": "Zodiacal",
+    "luminary": "\u03b2 Geminorum",
+    "month": "February",
+    "meaning": "The Twins",
+    "edges": [
+      {
+        "start": 31681,
+        "end": 34088
+      },
+      {
+        "start": 34088,
+        "end": 35550
+      },
+      {
+        "start": 35550,
+        "end": 35350
+      },
+      {
+        "start": 35350,
+        "end": 32362
+      },
+      {
+        "start": 35550,
+        "end": 36962
+      },
+      {
+        "start": 36962,
+        "end": 37740
+      },
+      {
+        "start": 36962,
+        "end": 37826
+      },
+      {
+        "start": 36962,
+        "end": 36046
+      },
+      {
+        "start": 36046,
+        "end": 34693
+      },
+      {
+        "start": 34693,
+        "end": 36850
+      },
+      {
+        "start": 34693,
+        "end": 33018
+      },
+      {
+        "start": 34693,
+        "end": 32246
+      },
+      {
+        "start": 32246,
+        "end": 30883
+      },
+      {
+        "start": 32246,
+        "end": 30343
+      },
+      {
+        "start": 30343,
+        "end": 29655
+      },
+      {
+        "start": 29655,
+        "end": 28734
+      }
+    ],
+    "ra": 1.84,
+    "dec": 0.42
+  },
+  {
+    "origin": "1613",
+    "info": "This constellation was first observed to look like a camel. The name was then changed to camelopardalis, which is Latin for giraffe.",
+    "short": "Cam",
+    "name": "Camelopardalis",
+    "family": "Ursa Major",
+    "luminary": "\u03b2 Camelopardalis",
+    "month": "February",
+    "meaning": "The Giraffe",
+    "edges": [
+      {
+        "start": 16228,
+        "end": 18505
+      },
+      {
+        "start": 18505,
+        "end": 22783
+      },
+      {
+        "start": 16228,
+        "end": 17959
+      },
+      {
+        "start": 17959,
+        "end": 22783
+      },
+      {
+        "start": 17959,
+        "end": 25110
+      }
+    ],
+    "ra": 1.13,
+    "dec": 1.19
+  },
+  {
+    "origin": "Ancient",
+    "info": "This constellation represents the larger of Orion's two hunting dogs. It is the home of Sirius, the brightest star in the night sky.",
+    "short": "CMa",
+    "name": "Canis Major",
+    "family": "Orion",
+    "luminary": "\u03b1 Canis Majoris",
+    "month": "February",
+    "meaning": "The Great Dog",
+    "edges": [
+      {
+        "start": 33160,
+        "end": 34045
+      },
+      {
+        "start": 34045,
+        "end": 33347
+      },
+      {
+        "start": 33347,
+        "end": 32349
+      },
+      {
+        "start": 32349,
+        "end": 33977
+      },
+      {
+        "start": 33977,
+        "end": 34444
+      },
+      {
+        "start": 34444,
+        "end": 35037
+      },
+      {
+        "start": 35037,
+        "end": 35904
+      },
+      {
+        "start": 33579,
+        "end": 33856
+      },
+      {
+        "start": 33856,
+        "end": 34444
+      },
+      {
+        "start": 33856,
+        "end": 33165
+      },
+      {
+        "start": 33165,
+        "end": 31592
+      },
+      {
+        "start": 31592,
+        "end": 31416
+      },
+      {
+        "start": 31592,
+        "end": 30324
+      },
+      {
+        "start": 31592,
+        "end": 32349
+      },
+      {
+        "start": 33579,
+        "end": 32759
+      },
+      {
+        "start": 30122,
+        "end": 33579
+      },
+      {
+        "start": 33347,
+        "end": 33160
+      }
+    ],
+    "ra": 1.8,
+    "dec": -0.41
+  },
+  {
+    "origin": "Ancient",
+    "info": "This is the best-known constellation. The shape of the bear can be seen clearly, with the handle of the dipper making up the bear's tail.",
+    "short": "UMa",
+    "name": "Ursa Major",
+    "family": "Ursa Major",
+    "luminary": "\u03b5 Ursae Majoris",
+    "month": "April",
+    "meaning": "The Great Bear",
+    "edges": [
+      {
+        "start": 67301,
+        "end": 65378
+      },
+      {
+        "start": 65378,
+        "end": 62956
+      },
+      {
+        "start": 62956,
+        "end": 59774
+      },
+      {
+        "start": 59774,
+        "end": 54061
+      },
+      {
+        "start": 54061,
+        "end": 53910
+      },
+      {
+        "start": 53910,
+        "end": 58001
+      },
+      {
+        "start": 58001,
+        "end": 59774
+      },
+      {
+        "start": 58001,
+        "end": 57399
+      },
+      {
+        "start": 57399,
+        "end": 54539
+      },
+      {
+        "start": 54539,
+        "end": 50372
+      },
+      {
+        "start": 54539,
+        "end": 50801
+      },
+      {
+        "start": 53910,
+        "end": 48402
+      },
+      {
+        "start": 48402,
+        "end": 46853
+      },
+      {
+        "start": 46853,
+        "end": 44471
+      },
+      {
+        "start": 46853,
+        "end": 44127
+      },
+      {
+        "start": 48402,
+        "end": 48319
+      },
+      {
+        "start": 48319,
+        "end": 41704
+      },
+      {
+        "start": 41704,
+        "end": 46733
+      },
+      {
+        "start": 46733,
+        "end": 54061
+      }
+    ],
+    "ra": 2.84,
+    "dec": 0.92
+  },
+  {
+    "origin": "1603",
+    "info": "It was named by Johann Bayer in 1603 and represents the crane, which was the symbol for the office of astronomer in ancient Egypt.",
+    "short": "Gru",
+    "name": "Grus",
+    "family": "Bayer",
+    "luminary": "\u03b1 Gruis",
+    "month": "October",
+    "meaning": "The Crane",
+    "edges": [
+      {
+        "start": 114131,
+        "end": 110997
+      },
+      {
+        "start": 110997,
+        "end": 109268
+      },
+      {
+        "start": 109268,
+        "end": 112122
+      },
+      {
+        "start": 112122,
+        "end": 114421
+      },
+      {
+        "start": 114421,
+        "end": 114131
+      },
+      {
+        "start": 112122,
+        "end": 113638
+      },
+      {
+        "start": 112122,
+        "end": 112623
+      },
+      {
+        "start": 109268,
+        "end": 109111
+      },
+      {
+        "start": 109111,
+        "end": 108085
+      }
+    ],
+    "ra": -0.37,
+    "dec": -0.79
+  },
+  {
+    "origin": "Ancient",
+    "info": "The constellation was named after Hercules, the son of Zeus, who defeated the Nemean Lion, Leo, and the many-headed beast called Hydra.",
+    "short": "Her",
+    "name": "Hercules",
+    "family": "Hercules",
+    "luminary": "\u03b2 Herculis",
+    "month": "July",
+    "meaning": "The Strong Man",
+    "edges": [
+      {
+        "start": 86414,
+        "end": 87808
+      },
+      {
+        "start": 87808,
+        "end": 85112
+      },
+      {
+        "start": 85112,
+        "end": 84606
+      },
+      {
+        "start": 84606,
+        "end": 84380
+      },
+      {
+        "start": 84380,
+        "end": 81833
+      },
+      {
+        "start": 81833,
+        "end": 81126
+      },
+      {
+        "start": 81126,
+        "end": 79992
+      },
+      {
+        "start": 79992,
+        "end": 77760
+      },
+      {
+        "start": 81833,
+        "end": 81693
+      },
+      {
+        "start": 81693,
+        "end": 80816
+      },
+      {
+        "start": 80816,
+        "end": 80170
+      },
+      {
+        "start": 81693,
+        "end": 83207
+      },
+      {
+        "start": 83207,
+        "end": 85693
+      },
+      {
+        "start": 85693,
+        "end": 84379
+      },
+      {
+        "start": 86974,
+        "end": 87933
+      },
+      {
+        "start": 87933,
+        "end": 88794
+      },
+      {
+        "start": 83207,
+        "end": 84380
+      },
+      {
+        "start": 86974,
+        "end": 85693
+      }
+    ],
+    "ra": -1.8,
+    "dec": 0.59
+  },
+  {
+    "origin": "1763",
+    "info": "Invented by La Caille, it was originally called Horologium Oscillitorium to honor Christian Huygens, the inventor of the pendulum clock.",
+    "short": "Hor",
+    "name": "Horologium",
+    "family": "La Caille",
+    "luminary": "\u03b1 Horologii",
+    "month": "December",
+    "meaning": "The Pendulum Clock",
+    "edges": [
+      {
+        "start": 19747,
+        "end": 12484
+      },
+      {
+        "start": 12484,
+        "end": 14240
+      }
+    ],
+    "ra": 0.87,
+    "dec": -0.91
+  },
+  {
+    "origin": "Ancient",
+    "info": "Hydra was a giant beast with the body of a dog and a hundred snake-like heads. It was slain by Hercules on the second of his twelve labors.",
+    "short": "Hya",
+    "name": "Hydra",
+    "family": "Hercules",
+    "luminary": "\u03b1 Hydrae",
+    "month": "April",
+    "meaning": "The Sea Serpent",
+    "edges": [
+      {
+        "start": 42799,
+        "end": 42402
+      },
+      {
+        "start": 42402,
+        "end": 42313
+      },
+      {
+        "start": 42313,
+        "end": 43109
+      },
+      {
+        "start": 43109,
+        "end": 43234
+      },
+      {
+        "start": 43234,
+        "end": 42799
+      },
+      {
+        "start": 43234,
+        "end": 43813
+      },
+      {
+        "start": 43813,
+        "end": 45336
+      },
+      {
+        "start": 45336,
+        "end": 46776
+      },
+      {
+        "start": 46776,
+        "end": 46509
+      },
+      {
+        "start": 46509,
+        "end": 46390
+      },
+      {
+        "start": 46390,
+        "end": 48356
+      },
+      {
+        "start": 48356,
+        "end": 49841
+      },
+      {
+        "start": 49841,
+        "end": 51069
+      },
+      {
+        "start": 51069,
+        "end": 52943
+      },
+      {
+        "start": 52943,
+        "end": 56343
+      },
+      {
+        "start": 56343,
+        "end": 57936
+      },
+      {
+        "start": 57936,
+        "end": 64166
+      },
+      {
+        "start": 64166,
+        "end": 64962
+      }
+    ],
+    "ra": 2.63,
+    "dec": -0.15
+  },
+  {
+    "origin": "1603",
+    "info": "It is one of twelve constellations named by Johann Bayer. It is often confused with Hydra, the large constellation further north.",
+    "short": "Hyi",
+    "name": "Hydrus",
+    "family": "Bayer",
+    "luminary": "\u03b2 Hydri",
+    "month": "December",
+    "meaning": "The Water Snake",
+    "edges": [
+      {
+        "start": 2021,
+        "end": 17678
+      },
+      {
+        "start": 17678,
+        "end": 12394
+      },
+      {
+        "start": 12394,
+        "end": 11001
+      },
+      {
+        "start": 11001,
+        "end": 9236
+      }
+    ],
+    "ra": 0.59,
+    "dec": -1.22
+  },
+  {
+    "origin": "1603",
+    "info": "Johann Bayer chose this name to honor the Native Americans that European travelers had encountered during their travels and expeditions.",
+    "short": "Ind",
+    "name": "Indus",
+    "family": "Bayer",
+    "luminary": "\u03b1 Indi",
+    "month": "September",
+    "meaning": "The American Indian",
+    "edges": [
+      {
+        "start": 105319,
+        "end": 101772
+      },
+      {
+        "start": 101772,
+        "end": 103227
+      },
+      {
+        "start": 103227,
+        "end": 105319
+      }
+    ],
+    "ra": -0.8,
+    "dec": -0.93
+  },
+  {
+    "origin": "1692",
+    "info": "Lacerta, the lizard, is one of seven constellations created by the Polish astronomer Johannes Hevelius in the seventeenth century.",
+    "short": "Lac",
+    "name": "Lacerta",
+    "family": "Perseus",
+    "luminary": "\u03b1 Lacertae",
+    "month": "October",
+    "meaning": "The Lizard",
+    "edges": [
+      {
+        "start": 109937,
+        "end": 111104
+      },
+      {
+        "start": 111104,
+        "end": 111022
+      },
+      {
+        "start": 111022,
+        "end": 110609
+      },
+      {
+        "start": 110609,
+        "end": 110538
+      },
+      {
+        "start": 110538,
+        "end": 111169
+      },
+      {
+        "start": 111169,
+        "end": 111022
+      }
+    ],
+    "ra": -0.41,
+    "dec": 0.82
+  },
+  {
+    "origin": "1613",
+    "info": "Monoceros is a faint constellation associated in older times with the shape of a unicorn. The faint stars make its shape difficult to discern.",
+    "short": "Mon",
+    "name": "Monoceros",
+    "family": "Orion",
+    "luminary": "\u03b2 Monocerotis",
+    "month": "February",
+    "meaning": "The Unicorn",
+    "edges": [
+      {
+        "start": 29651,
+        "end": 30867
+      },
+      {
+        "start": 30867,
+        "end": 34769
+      },
+      {
+        "start": 34769,
+        "end": 30419
+      },
+      {
+        "start": 30419,
+        "end": 29151
+      },
+      {
+        "start": 34769,
+        "end": 39863
+      },
+      {
+        "start": 39863,
+        "end": 37447
+      }
+    ],
+    "ra": 1.81,
+    "dec": -0.05
+  },
+  {
+    "origin": "Ancient",
+    "info": "The hare is being hunted by Orion and his two hunting dogs, Canis Major and Canis Minor. Do not confuse Lepus with Lupus, the wolf.",
+    "short": "Lep",
+    "name": "Lepus",
+    "family": "Orion",
+    "luminary": "\u03b1 Leporis",
+    "month": "February",
+    "meaning": "The Hare",
+    "edges": [
+      {
+        "start": 28910,
+        "end": 28103
+      },
+      {
+        "start": 28103,
+        "end": 27288
+      },
+      {
+        "start": 27288,
+        "end": 25985
+      },
+      {
+        "start": 25985,
+        "end": 24305
+      },
+      {
+        "start": 25985,
+        "end": 27654
+      },
+      {
+        "start": 27654,
+        "end": 27072
+      },
+      {
+        "start": 27072,
+        "end": 25606
+      },
+      {
+        "start": 25606,
+        "end": 23685
+      },
+      {
+        "start": 25985,
+        "end": 25606
+      },
+      {
+        "start": 24305,
+        "end": 24845
+      },
+      {
+        "start": 24305,
+        "end": 24327
+      },
+      {
+        "start": 23685,
+        "end": 24305
+      },
+      {
+        "start": 24327,
+        "end": 24244
+      },
+      {
+        "start": 24845,
+        "end": 24873
+      }
+    ],
+    "ra": 1.45,
+    "dec": -0.29
+  },
+  {
+    "origin": "Ancient",
+    "info": "It was named after the Nemean lion, strangled by Hercules on the first of his twelve labors after the hero unsuccessfully tried to reason with it.",
+    "short": "Leo",
+    "name": "Leo",
+    "family": "Zodiacal",
+    "luminary": "\u03b1 Leonis",
+    "month": "April",
+    "meaning": "The Lion",
+    "edges": [
+      {
+        "start": 57632,
+        "end": 54879
+      },
+      {
+        "start": 54879,
+        "end": 49669
+      },
+      {
+        "start": 49669,
+        "end": 49583
+      },
+      {
+        "start": 49583,
+        "end": 50583
+      },
+      {
+        "start": 50583,
+        "end": 54872
+      },
+      {
+        "start": 54872,
+        "end": 57632
+      },
+      {
+        "start": 50583,
+        "end": 50335
+      },
+      {
+        "start": 50335,
+        "end": 48455
+      },
+      {
+        "start": 48455,
+        "end": 47908
+      },
+      {
+        "start": 54872,
+        "end": 54879
+      }
+    ],
+    "ra": 2.76,
+    "dec": 0.3
+  },
+  {
+    "origin": "Ancient",
+    "info": "Its shape is not very obvious. Seen as an unidentified animal by the Greeks and Romans, it has only recently been referred to as a wolf.",
+    "short": "Lup",
+    "name": "Lupus",
+    "family": "Hercules",
+    "luminary": "\u03b1 Lupi",
+    "month": "June",
+    "meaning": "The Wolf",
+    "edges": [
+      {
+        "start": 77634,
+        "end": 78970
+      },
+      {
+        "start": 78970,
+        "end": 78384
+      },
+      {
+        "start": 78384,
+        "end": 77634
+      },
+      {
+        "start": 78384,
+        "end": 76297
+      },
+      {
+        "start": 76297,
+        "end": 75141
+      },
+      {
+        "start": 75141,
+        "end": 75177
+      },
+      {
+        "start": 75141,
+        "end": 73273
+      },
+      {
+        "start": 76297,
+        "end": 76552
+      },
+      {
+        "start": 76552,
+        "end": 74395
+      },
+      {
+        "start": 74395,
+        "end": 71860
+      },
+      {
+        "start": 74395,
+        "end": 71536
+      },
+      {
+        "start": 71860,
+        "end": 70576
+      },
+      {
+        "start": 71860,
+        "end": 73273
+      }
+    ],
+    "ra": -2.27,
+    "dec": -0.74
+  },
+  {
+    "origin": "1692",
+    "info": "Being composed of extremely faint stars, it was said that anyone who studied these stars should have eyes like a lynx, hence the name.",
+    "short": "Lyn",
+    "name": "Lynx",
+    "family": "Ursa Major",
+    "luminary": "\u03b1 Lyncis",
+    "month": "March",
+    "meaning": "The Lynx",
+    "edges": [
+      {
+        "start": 45860,
+        "end": 45688
+      },
+      {
+        "start": 45688,
+        "end": 44700
+      },
+      {
+        "start": 44700,
+        "end": 44248
+      },
+      {
+        "start": 44248,
+        "end": 41075
+      },
+      {
+        "start": 41075,
+        "end": 36145
+      },
+      {
+        "start": 36145,
+        "end": 33449
+      },
+      {
+        "start": 33449,
+        "end": 30060
+      }
+    ],
+    "ra": 2.16,
+    "dec": 0.79
+  },
+  {
+    "origin": "Ancient",
+    "info": "The Lyre was invented by Hermes as a gift to his half-brother Apollo, who gave it to Orpheus, the musician of the Argonauts.",
+    "short": "Lyr",
+    "name": "Lyra",
+    "family": "Hercules",
+    "luminary": "\u03b1 Lyrae",
+    "month": "August",
+    "meaning": "The Lyre",
+    "edges": [
+      {
+        "start": 91262,
+        "end": 91971
+      },
+      {
+        "start": 91971,
+        "end": 92420
+      },
+      {
+        "start": 92420,
+        "end": 93194
+      },
+      {
+        "start": 93194,
+        "end": 92791
+      },
+      {
+        "start": 92791,
+        "end": 91971
+      }
+    ],
+    "ra": -1.36,
+    "dec": 0.63
+  },
+  {
+    "origin": "1763",
+    "info": "Originally named \"Antlia Pneumatica and Machine Pneumatique\", it commemorates the invention of the air pump by Robert Boyle.",
+    "short": "Ant",
+    "name": "Antlia",
+    "family": "La Caille",
+    "luminary": "\u03b1 Antliae",
+    "month": "April",
+    "meaning": "The Air Pump",
+    "edges": [
+      {
+        "start": 51172,
+        "end": 48926
+      }
+    ],
+    "ra": 2.67,
+    "dec": -0.58
+  },
+  {
+    "origin": "1763",
+    "info": "Named by La Caille to honor the invention of the microscope, it is one of several constellations named after scientific instruments.",
+    "short": "Mic",
+    "name": "Microscopium",
+    "family": "La Caille",
+    "luminary": "\u03b3 Microscopii",
+    "month": "September",
+    "meaning": "The Microscope",
+    "edges": [
+      {
+        "start": 105140,
+        "end": 103738
+      },
+      {
+        "start": 103738,
+        "end": 102831
+      }
+    ],
+    "ra": -0.77,
+    "dec": -0.57
+  },
+  {
+    "origin": "1603",
+    "info": "This constellation was named for its shape, resembling that of a housefly. Johann Bayer originally called it Apis, which meant \"the Fly Bee\".",
+    "short": "Mus",
+    "name": "Musca",
+    "family": "Bayer",
+    "luminary": "\u03b1 Muscae",
+    "month": "May",
+    "meaning": "The Fly",
+    "edges": [
+      {
+        "start": 62322,
+        "end": 57363
+      },
+      {
+        "start": 57363,
+        "end": 61199
+      },
+      {
+        "start": 61199,
+        "end": 61585
+      },
+      {
+        "start": 61585,
+        "end": 62322
+      }
+    ],
+    "ra": -3.03,
+    "dec": -1.2
+  },
+  {
+    "origin": "1763",
+    "info": "Octans is a circumpolar and is visible all night long. It contains the South Celestial Pole and was named after the octant, a navigational tool.",
+    "short": "Oct",
+    "name": "Octans",
+    "family": "La Caille",
+    "luminary": "\u03bd Octantis",
+    "month": "October",
+    "meaning": "The Octant",
+    "edges": [
+      {
+        "start": 107089,
+        "end": 112405
+      },
+      {
+        "start": 112405,
+        "end": 70638
+      },
+      {
+        "start": 70638,
+        "end": 107089
+      }
+    ],
+    "ra": -0.99,
+    "dec": -1.41
+  },
+  {
+    "origin": "1603",
+    "info": "This constellation invented by Bayer represents the bird of paradise also known at the time as Apus Indica, with the meaning of \"Bird of India\".",
+    "short": "Aps",
+    "name": "Apus",
+    "family": "Bayer",
+    "luminary": "\u03b1 Apodis",
+    "month": "July",
+    "meaning": "The Bird of Paradise",
+    "edges": [
+      {
+        "start": 72370,
+        "end": 81065
+      },
+      {
+        "start": 81065,
+        "end": 81852
+      }
+    ],
+    "ra": -2.09,
+    "dec": -1.37
+  },
+  {
+    "origin": "Ancient",
+    "info": "It was named after the physician Aesculapius. Serpents were always associated with physicians, making them the symbol for medicine.",
+    "short": "Oph",
+    "name": "Ophiuchus",
+    "family": "Hercules",
+    "luminary": "\u03b1 Ophiuchi",
+    "month": "July",
+    "meaning": "The Serpent Bearer",
+    "edges": [
+      {
+        "start": 86032,
+        "end": 86742
+      },
+      {
+        "start": 84012,
+        "end": 86742
+      },
+      {
+        "start": 86032,
+        "end": 83000
+      },
+      {
+        "start": 83000,
+        "end": 79882
+      },
+      {
+        "start": 79882,
+        "end": 81377
+      },
+      {
+        "start": 81377,
+        "end": 84012
+      },
+      {
+        "start": 84012,
+        "end": 85755
+      }
+    ],
+    "ra": -1.8,
+    "dec": -0.07
+  },
+  {
+    "origin": "Ancient",
+    "info": "After Orion was killed by Scorpius, the scorpion, the god put them at opposite sides of the sky so that he could never be hurt by it again.",
+    "short": "Ori",
+    "name": "Orion",
+    "family": "Orion",
+    "luminary": "\u03b2 Orionis",
+    "month": "January",
+    "meaning": "The Great Hunter",
+    "edges": [
+      {
+        "start": 26727,
+        "end": 26311
+      },
+      {
+        "start": 26311,
+        "end": 25930
+      },
+      {
+        "start": 28691,
+        "end": 29426
+      },
+      {
+        "start": 29426,
+        "end": 29038
+      },
+      {
+        "start": 29038,
+        "end": 27913
+      },
+      {
+        "start": 29426,
+        "end": 28614
+      },
+      {
+        "start": 28614,
+        "end": 27989
+      },
+      {
+        "start": 27989,
+        "end": 26727
+      },
+      {
+        "start": 26727,
+        "end": 27366
+      },
+      {
+        "start": 27366,
+        "end": 24436
+      },
+      {
+        "start": 24436,
+        "end": 25930
+      },
+      {
+        "start": 25930,
+        "end": 25336
+      },
+      {
+        "start": 25336,
+        "end": 26207
+      },
+      {
+        "start": 26207,
+        "end": 27989
+      },
+      {
+        "start": 25336,
+        "end": 22449
+      },
+      {
+        "start": 22449,
+        "end": 22549
+      },
+      {
+        "start": 22549,
+        "end": 22730
+      },
+      {
+        "start": 22730,
+        "end": 23123
+      },
+      {
+        "start": 22449,
+        "end": 22509
+      },
+      {
+        "start": 22509,
+        "end": 22845
+      },
+      {
+        "start": 29038,
+        "end": 28614
+      }
+    ],
+    "ra": 1.49,
+    "dec": 0.11
+  },
+  {
+    "origin": "1603",
+    "info": "When the ancient giant Argus was killed by Hermes, the goddess Hera decided to put all its hundred eyes on the tail of her peacock.",
+    "short": "Pav",
+    "name": "Pavo",
+    "family": "Bayer",
+    "luminary": "\u03b1 Pavonis",
+    "month": "September",
+    "meaning": "The Peacock",
+    "edges": [
+      {
+        "start": 100751,
+        "end": 105858
+      },
+      {
+        "start": 105858,
+        "end": 102395
+      },
+      {
+        "start": 102395,
+        "end": 99240
+      },
+      {
+        "start": 99240,
+        "end": 100751
+      },
+      {
+        "start": 99240,
+        "end": 98495
+      },
+      {
+        "start": 98495,
+        "end": 91792
+      },
+      {
+        "start": 91792,
+        "end": 93015
+      },
+      {
+        "start": 93015,
+        "end": 99240
+      },
+      {
+        "start": 93015,
+        "end": 92609
+      },
+      {
+        "start": 92609,
+        "end": 90098
+      },
+      {
+        "start": 90098,
+        "end": 88866
+      },
+      {
+        "start": 88866,
+        "end": 92609
+      },
+      {
+        "start": 88866,
+        "end": 86929
+      }
+    ],
+    "ra": -1.2,
+    "dec": -1.14
+  },
+  {
+    "origin": "Ancient",
+    "info": "Pegasus is the son of Neptune and Medusa who eventually became the thundering winged horse of Zeus and the carrier of his lightning bolts.",
+    "short": "Peg",
+    "name": "Pegasus",
+    "family": "Perseus",
+    "luminary": "\u03b5 Pegasi",
+    "month": "October",
+    "meaning": "The Winged Horse",
+    "edges": [
+      {
+        "start": 1067,
+        "end": 113963
+      },
+      {
+        "start": 113881,
+        "end": 112158
+      },
+      {
+        "start": 112158,
+        "end": 109352
+      },
+      {
+        "start": 113881,
+        "end": 112748
+      },
+      {
+        "start": 112748,
+        "end": 112440
+      },
+      {
+        "start": 112440,
+        "end": 109176
+      },
+      {
+        "start": 109176,
+        "end": 107354
+      },
+      {
+        "start": 113963,
+        "end": 112447
+      },
+      {
+        "start": 112447,
+        "end": 112029
+      },
+      {
+        "start": 112029,
+        "end": 109427
+      },
+      {
+        "start": 109427,
+        "end": 107315
+      },
+      {
+        "start": 677,
+        "end": 113881
+      },
+      {
+        "start": 677,
+        "end": 1067
+      },
+      {
+        "start": 113881,
+        "end": 113963
+      }
+    ],
+    "ra": -0.33,
+    "dec": 0.36
+  },
+  {
+    "origin": "1763",
+    "info": "This is one of the constellations named by La Caille during his trip to the Cape of Good Hope. Its shape resembles that of a painting easel.",
+    "short": "Pic",
+    "name": "Pictor",
+    "family": "La Caille",
+    "luminary": "\u03b1 Pictoris",
+    "month": "February",
+    "meaning": "The Painter's Easel",
+    "edges": [
+      {
+        "start": 32607,
+        "end": 27530
+      },
+      {
+        "start": 27530,
+        "end": 27321
+      }
+    ],
+    "ra": 1.61,
+    "dec": -0.98
+  },
+  {
+    "origin": "Ancient",
+    "info": "It was named after the legendary hero who rescued Andromeda from the monster, Cetus. They fell in love and were both placed in the stars.",
+    "short": "Per",
+    "name": "Perseus",
+    "family": "Perseus",
+    "luminary": "\u03b1 Persei",
+    "month": "December",
+    "meaning": "The Greek Hero",
+    "edges": [
+      {
+        "start": 17448,
+        "end": 18246
+      },
+      {
+        "start": 18246,
+        "end": 18614
+      },
+      {
+        "start": 18614,
+        "end": 18532
+      },
+      {
+        "start": 18532,
+        "end": 17358
+      },
+      {
+        "start": 17358,
+        "end": 15863
+      },
+      {
+        "start": 15863,
+        "end": 14328
+      },
+      {
+        "start": 14328,
+        "end": 13268
+      },
+      {
+        "start": 15863,
+        "end": 14576
+      },
+      {
+        "start": 14576,
+        "end": 14354
+      },
+      {
+        "start": 14354,
+        "end": 13254
+      }
+    ],
+    "ra": 0.9,
+    "dec": 0.74
+  },
+  {
+    "origin": "Ancient",
+    "info": "Equuleus is an old constellation identified by Ptolemy. It may represent Cerleris, the brother of Pegasus, given to Castor by Mercury.",
+    "short": "Equ",
+    "name": "Equuleus",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b1 Equulei",
+    "month": "September",
+    "meaning": "The Little Horse",
+    "edges": [
+      {
+        "start": 104521,
+        "end": 104858
+      },
+      {
+        "start": 104858,
+        "end": 105570
+      },
+      {
+        "start": 105570,
+        "end": 104987
+      },
+      {
+        "start": 104987,
+        "end": 104521
+      }
+    ],
+    "ra": -0.72,
+    "dec": 0.14
+  },
+  {
+    "origin": "Ancient",
+    "info": "This constellation represents the smaller of Orion's two hunting dogs. It got its name from the fact that is rises before Sirius, the dog star.",
+    "short": "CMi",
+    "name": "Canis Minor",
+    "family": "Orion",
+    "luminary": "\u03b1 Canis Minoris",
+    "month": "March",
+    "meaning": "The Little Dog",
+    "edges": [
+      {
+        "start": 37279,
+        "end": 36188
+      }
+    ],
+    "ra": 1.98,
+    "dec": 0.12
+  },
+  {
+    "origin": "1692",
+    "info": "Located just above Leo, it doesn't really resemble a lion at all. It was introduced by Johannes Hevelius in the catalog released after his death.",
+    "short": "LMi",
+    "name": "Leo Minor",
+    "family": "Ursa Major",
+    "luminary": "o Leonis Minoris",
+    "month": "April",
+    "meaning": "The Little Lion",
+    "edges": [
+      {
+        "start": 53229,
+        "end": 51233
+      },
+      {
+        "start": 51233,
+        "end": 49593
+      },
+      {
+        "start": 49593,
+        "end": 46952
+      },
+      {
+        "start": 49593,
+        "end": 53229
+      }
+    ],
+    "ra": 2.69,
+    "dec": 0.62
+  },
+  {
+    "origin": "1692",
+    "info": "The constellation actually resembles a flying gull as seen face-on. Home of the Dumbbell Nebula, it resembles a dumbbell used for weight lifting.",
+    "short": "Vul",
+    "name": "Vulpecula",
+    "family": "Hercules",
+    "luminary": "\u03b1 Vulpeculae",
+    "month": "September",
+    "meaning": "The Fox",
+    "edges": [
+      {
+        "start": 95771,
+        "end": 98543
+      }
+    ],
+    "ra": -1.11,
+    "dec": 0.46
+  },
+  {
+    "origin": "Ancient",
+    "info": "This constellation is famous for the Little Dipper and for Polaris, the North Star, which is located at the tip of the dipper's handle.",
+    "short": "UMi",
+    "name": "Ursa Minor",
+    "family": "Ursa Major",
+    "luminary": "\u03b1 Ursae Minoris",
+    "month": "June",
+    "meaning": "The Little Bear",
+    "edges": [
+      {
+        "start": 11767,
+        "end": 85822
+      },
+      {
+        "start": 85822,
+        "end": 82080
+      },
+      {
+        "start": 82080,
+        "end": 77055
+      },
+      {
+        "start": 77055,
+        "end": 79822
+      },
+      {
+        "start": 79822,
+        "end": 75097
+      },
+      {
+        "start": 75097,
+        "end": 72607
+      },
+      {
+        "start": 72607,
+        "end": 77055
+      }
+    ],
+    "ra": -1.99,
+    "dec": 1.39
+  },
+  {
+    "origin": "1603",
+    "info": "This constellation represents the mythological bird that would be consumed by fire and then emerge from the flames reborn.",
+    "short": "Phe",
+    "name": "Phoenix",
+    "family": "Bayer",
+    "luminary": "\u03b1 Phoenicis",
+    "month": "November",
+    "meaning": "The Phoenix",
+    "edges": [
+      {
+        "start": 5348,
+        "end": 5165
+      },
+      {
+        "start": 5165,
+        "end": 2072
+      },
+      {
+        "start": 2072,
+        "end": 5348
+      },
+      {
+        "start": 5165,
+        "end": 7083
+      },
+      {
+        "start": 7083,
+        "end": 8837
+      },
+      {
+        "start": 8837,
+        "end": 5165
+      },
+      {
+        "start": 5165,
+        "end": 6867
+      },
+      {
+        "start": 6867,
+        "end": 2072
+      },
+      {
+        "start": 2072,
+        "end": 2081
+      },
+      {
+        "start": 2081,
+        "end": 765
+      },
+      {
+        "start": 765,
+        "end": 2072
+      }
+    ],
+    "ra": 0.27,
+    "dec": -0.81
+  },
+  {
+    "origin": "Ancient",
+    "info": "Pisces represents a pair of fish facing in opposite directions, but swimming together and connected at the tail by a common star.",
+    "short": "Psc",
+    "name": "Pisces",
+    "family": "Zodiacal",
+    "luminary": "\u03b7 Piscium",
+    "month": "October",
+    "meaning": "The Fishes",
+    "edges": [
+      {
+        "start": 4889,
+        "end": 5742
+      },
+      {
+        "start": 4889,
+        "end": 6193
+      },
+      {
+        "start": 6193,
+        "end": 5742
+      },
+      {
+        "start": 5742,
+        "end": 7097
+      },
+      {
+        "start": 7097,
+        "end": 8198
+      },
+      {
+        "start": 8198,
+        "end": 9487
+      },
+      {
+        "start": 9487,
+        "end": 8833
+      },
+      {
+        "start": 8833,
+        "end": 7884
+      },
+      {
+        "start": 7884,
+        "end": 7007
+      },
+      {
+        "start": 7007,
+        "end": 4906
+      },
+      {
+        "start": 4906,
+        "end": 3760
+      },
+      {
+        "start": 3760,
+        "end": 1645
+      },
+      {
+        "start": 1645,
+        "end": 118268
+      },
+      {
+        "start": 118268,
+        "end": 116771
+      },
+      {
+        "start": 116771,
+        "end": 116928
+      },
+      {
+        "start": 116928,
+        "end": 115738
+      },
+      {
+        "start": 115738,
+        "end": 114971
+      },
+      {
+        "start": 114971,
+        "end": 115830
+      },
+      {
+        "start": 115830,
+        "end": 116771
+      }
+    ],
+    "ra": 0.2,
+    "dec": 0.17
+  },
+  {
+    "origin": "Ancient",
+    "info": "This constellation may have been the original Pisces. It represents a fish lying on its back drinking the waters from the jar of Aquarius.",
+    "short": "PsA",
+    "name": "Piscis Austrinus",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b1 Piscis Austrini",
+    "month": "October",
+    "meaning": "The Southern Fish",
+    "edges": [
+      {
+        "start": 113368,
+        "end": 111954
+      },
+      {
+        "start": 111954,
+        "end": 108661
+      },
+      {
+        "start": 108661,
+        "end": 107608
+      },
+      {
+        "start": 107608,
+        "end": 109422
+      },
+      {
+        "start": 109422,
+        "end": 111188
+      },
+      {
+        "start": 111188,
+        "end": 113246
+      }
+    ],
+    "ra": -0.41,
+    "dec": -0.53
+  },
+  {
+    "origin": "1603",
+    "info": "This constellation was originally named Piscis Volansis by Johann Bayer. It resembles a flying fish as seen from the side.",
+    "short": "Vol",
+    "name": "Volans",
+    "family": "Bayer",
+    "luminary": "\u03b2 Volantis",
+    "month": "March",
+    "meaning": "The Flying Fish",
+    "edges": [
+      {
+        "start": 37504,
+        "end": 34481
+      },
+      {
+        "start": 34481,
+        "end": 39794
+      },
+      {
+        "start": 39794,
+        "end": 37504
+      },
+      {
+        "start": 39794,
+        "end": 35228
+      },
+      {
+        "start": 39794,
+        "end": 41312
+      },
+      {
+        "start": 41312,
+        "end": 44382
+      },
+      {
+        "start": 44382,
+        "end": 39794
+      }
+    ],
+    "ra": 2.08,
+    "dec": -1.2
+  },
+  {
+    "origin": "1763",
+    "info": "This large southern constellation represents the stern, or poop deck, of Argo Navis, the ship of Jason and the Argonauts.",
+    "short": "Pup",
+    "name": "Puppis",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b6 Puppis",
+    "month": "March",
+    "meaning": "The Stern",
+    "edges": [
+      {
+        "start": 39757,
+        "end": 38146
+      },
+      {
+        "start": 38146,
+        "end": 35264
+      },
+      {
+        "start": 35264,
+        "end": 31685
+      },
+      {
+        "start": 31685,
+        "end": 32768
+      },
+      {
+        "start": 32768,
+        "end": 36377
+      },
+      {
+        "start": 36377,
+        "end": 39429
+      },
+      {
+        "start": 39429,
+        "end": 39757
+      }
+    ],
+    "ra": 1.95,
+    "dec": -0.66
+  },
+  {
+    "origin": "1763",
+    "info": "This constellation resembles a gridwork of lines in the eyepiece of an optical instrument, also known as a reticle. It is also described as a net.",
+    "short": "Ret",
+    "name": "Reticulum",
+    "family": "La Caille",
+    "luminary": "\u03b1 Reticuli",
+    "month": "January",
+    "meaning": "The Reticle",
+    "edges": [
+      {
+        "start": 19780,
+        "end": 19921
+      },
+      {
+        "start": 19921,
+        "end": 18597
+      },
+      {
+        "start": 18597,
+        "end": 17440
+      },
+      {
+        "start": 17440,
+        "end": 19780
+      }
+    ],
+    "ra": 1.06,
+    "dec": -1.08
+  },
+  {
+    "origin": "Ancient",
+    "info": "Sagittarius, half-man half-beast creature, stands with his bow aimed at the heart of Scorpius. It marks the direction of the center of our galaxy.",
+    "short": "Sgr",
+    "name": "Sagittarius",
+    "family": "Zodiacal",
+    "luminary": "\u03b5 Sagittarii",
+    "month": "August",
+    "meaning": "The Archer",
+    "edges": [
+      {
+        "start": 89931,
+        "end": 90496
+      },
+      {
+        "start": 89642,
+        "end": 90185
+      },
+      {
+        "start": 90185,
+        "end": 88635
+      },
+      {
+        "start": 88635,
+        "end": 87072
+      },
+      {
+        "start": 88635,
+        "end": 89931
+      },
+      {
+        "start": 89931,
+        "end": 90185
+      },
+      {
+        "start": 90185,
+        "end": 93506
+      },
+      {
+        "start": 93506,
+        "end": 92041
+      },
+      {
+        "start": 92041,
+        "end": 89931
+      },
+      {
+        "start": 92041,
+        "end": 90496
+      },
+      {
+        "start": 90496,
+        "end": 89341
+      },
+      {
+        "start": 93506,
+        "end": 93864
+      },
+      {
+        "start": 93864,
+        "end": 92855
+      },
+      {
+        "start": 92855,
+        "end": 92041
+      },
+      {
+        "start": 92855,
+        "end": 93085
+      },
+      {
+        "start": 93085,
+        "end": 93683
+      },
+      {
+        "start": 93683,
+        "end": 94820
+      },
+      {
+        "start": 94820,
+        "end": 95168
+      },
+      {
+        "start": 93864,
+        "end": 96406
+      },
+      {
+        "start": 96406,
+        "end": 98688
+      },
+      {
+        "start": 98688,
+        "end": 98412
+      },
+      {
+        "start": 98412,
+        "end": 98032
+      },
+      {
+        "start": 98032,
+        "end": 95347
+      },
+      {
+        "start": 98032,
+        "end": 95294
+      }
+    ],
+    "ra": -1.31,
+    "dec": -0.51
+  },
+  {
+    "origin": "Ancient",
+    "info": "Scorpius was sent by a jealous Artemis to slay Orion. It still chases him, but never catches him because it rises after Orion has set.",
+    "short": "Sco",
+    "name": "Scorpius",
+    "family": "Zodiacal",
+    "luminary": "\u03b1 Scorpii",
+    "month": "July",
+    "meaning": "The Scorpion",
+    "edges": [
+      {
+        "start": 85927,
+        "end": 86670
+      },
+      {
+        "start": 86670,
+        "end": 87073
+      },
+      {
+        "start": 87073,
+        "end": 86228
+      },
+      {
+        "start": 86228,
+        "end": 84143
+      },
+      {
+        "start": 84143,
+        "end": 82671
+      },
+      {
+        "start": 82671,
+        "end": 82514
+      },
+      {
+        "start": 82514,
+        "end": 82396
+      },
+      {
+        "start": 82396,
+        "end": 81266
+      },
+      {
+        "start": 81266,
+        "end": 80763
+      },
+      {
+        "start": 80763,
+        "end": 78401
+      },
+      {
+        "start": 80763,
+        "end": 78265
+      },
+      {
+        "start": 80763,
+        "end": 78820
+      }
+    ],
+    "ra": -1.86,
+    "dec": -0.59
+  },
+  {
+    "origin": "Ancient",
+    "info": "The Serpent is split into its head and tail by the constellation Ophiuchus, the Serpent Bearer, who holds the serpent in his hands.",
+    "short": "Ser",
+    "name": "Serpens Caput",
+    "family": "Hercules",
+    "luminary": "\u03b1 Serpentis",
+    "month": "July",
+    "meaning": "The Serpent Head",
+    "edges": [
+      {
+        "start": 77516,
+        "end": 77622
+      },
+      {
+        "start": 77622,
+        "end": 77070
+      },
+      {
+        "start": 77070,
+        "end": 76276
+      },
+      {
+        "start": 76276,
+        "end": 77233
+      },
+      {
+        "start": 77233,
+        "end": 78072
+      },
+      {
+        "start": 78072,
+        "end": 77450
+      },
+      {
+        "start": 77450,
+        "end": 77233
+      }
+    ],
+    "ra": -2.15,
+    "dec": 0.17
+  },
+  {
+    "origin": "Ancient",
+    "info": "The Serpent is split into its head and tail by the constellation Ophiuchus, the Serpent Bearer, who holds the serpent in his hands.",
+    "short": "Ser",
+    "name": "Serpens Cauda",
+    "family": "Hercules",
+    "luminary": "\u03b1 Serpentis",
+    "month": "July",
+    "meaning": "The Serpent Tail",
+    "edges": [
+      {
+        "start": 92946,
+        "end": 89962
+      },
+      {
+        "start": 89962,
+        "end": 86565
+      },
+      {
+        "start": 86565,
+        "end": 86263
+      },
+      {
+        "start": 86263,
+        "end": 84880
+      }
+    ],
+    "ra": -1.57,
+    "dec": -0.14
+  },
+  {
+    "origin": "1692",
+    "info": "The Sextant was named by Johannes Hevelius in honor of the instrument he used successfully to make stellar measurements from 1658 to 1679.",
+    "short": "Sex",
+    "name": "Sextans",
+    "family": "Hercules",
+    "luminary": "\u03b1 Sextantis",
+    "month": "April",
+    "meaning": "The Sextant",
+    "edges": [
+      {
+        "start": 51437,
+        "end": 49641
+      }
+    ],
+    "ra": 2.7,
+    "dec": -0.01
+  },
+  {
+    "origin": "1763",
+    "info": "This constellation was originally named \"Mons Mensa\", after the mountain with a flattened top near La Caille's observatory in Cape Town.",
+    "short": "Men",
+    "name": "Mensa",
+    "family": "La Caille",
+    "luminary": "\u03b1 Mensae",
+    "month": "January",
+    "meaning": "The Table Mountain",
+    "edges": [
+      {
+        "start": 25918,
+        "end": 21949
+      }
+    ],
+    "ra": 1.34,
+    "dec": -1.29
+  },
+  {
+    "origin": "Ancient",
+    "info": "It is believed to represent the story of Europa, daughter of Agenor King of Phoenica, and a majestic white bull, which was Zeus in disguise.",
+    "short": "Tau",
+    "name": "Taurus",
+    "family": "Zodiacal",
+    "luminary": "\u03b1 Tauri",
+    "month": "January",
+    "meaning": "The Bull",
+    "edges": [
+      {
+        "start": 25428,
+        "end": 21881
+      },
+      {
+        "start": 21881,
+        "end": 20889
+      },
+      {
+        "start": 21421,
+        "end": 26451
+      },
+      {
+        "start": 20205,
+        "end": 20455
+      },
+      {
+        "start": 20205,
+        "end": 18724
+      },
+      {
+        "start": 18724,
+        "end": 15900
+      },
+      {
+        "start": 21421,
+        "end": 20889
+      },
+      {
+        "start": 21421,
+        "end": 20894
+      },
+      {
+        "start": 20894,
+        "end": 20205
+      },
+      {
+        "start": 20889,
+        "end": 20648
+      },
+      {
+        "start": 20648,
+        "end": 20455
+      },
+      {
+        "start": 20455,
+        "end": 17847
+      }
+    ],
+    "ra": 1.17,
+    "dec": 0.32
+  },
+  {
+    "origin": "1763",
+    "info": "Telescopium was named by La Caille in the mid-eighteenth century after one of the most important pieces of equipment in astronomy.",
+    "short": "Tel",
+    "name": "Telescopium",
+    "family": "La Caille",
+    "luminary": "\u03b1 Telescopii",
+    "month": "August",
+    "meaning": "The Telescope",
+    "edges": [
+      {
+        "start": 90568,
+        "end": 90422
+      }
+    ],
+    "ra": -1.45,
+    "dec": -0.83
+  },
+  {
+    "origin": "1603",
+    "info": "Tucana is one of three exotic birds, which are grouped around the South Pole. The other two are Pavo (the Peacock) and Apus (Bird of Paradise).",
+    "short": "Tuc",
+    "name": "Tucana",
+    "family": "Bayer",
+    "luminary": "\u03b1 Tucanae",
+    "month": "November",
+    "meaning": "The Toucan",
+    "edges": [
+      {
+        "start": 110130,
+        "end": 114996
+      },
+      {
+        "start": 114996,
+        "end": 1599
+      },
+      {
+        "start": 114996,
+        "end": 2484
+      }
+    ],
+    "ra": -0.1,
+    "dec": -1.07
+  },
+  {
+    "origin": "Ancient",
+    "info": "This is one of the constellations first drawn by Ptolemy. In ancient times, its distinctive shape of three stars was called Deltoton.",
+    "short": "Tri",
+    "name": "Triangulum",
+    "family": "Perseus",
+    "luminary": "\u03b2 Trianguli",
+    "month": "December",
+    "meaning": "The Triangle",
+    "edges": [
+      {
+        "start": 10559,
+        "end": 10064
+      },
+      {
+        "start": 10064,
+        "end": 8796
+      },
+      {
+        "start": 8796,
+        "end": 10559
+      }
+    ],
+    "ra": 0.55,
+    "dec": 0.57
+  },
+  {
+    "origin": "1603",
+    "info": "It can easily be recognized by its shape. Its three brightest stars have been called the \"Three Patriarchs\", Abraham, Isaac and Jacob.",
+    "short": "Tra",
+    "name": "Triangulum Australe",
+    "family": "Hercules",
+    "luminary": "\u03b1 Trianguli Australis",
+    "month": "July",
+    "meaning": "The Southern Triangle",
+    "edges": [
+      {
+        "start": 82273,
+        "end": 74946
+      },
+      {
+        "start": 74946,
+        "end": 77952
+      },
+      {
+        "start": 77952,
+        "end": 82273
+      }
+    ],
+    "ra": -2.09,
+    "dec": -1.17
+  },
+  {
+    "origin": "Ancient",
+    "info": "Aquarius represents a man pouring water from a bucket. In Greek mythology, Aquarius was Ganymede, the cupbearer to the gods.",
+    "short": "Aqr",
+    "name": "Aquarius",
+    "family": "Zodiacal",
+    "luminary": "\u03b2 Aquarii",
+    "month": "October",
+    "meaning": "The Water Bearer",
+    "edges": [
+      {
+        "start": 106278,
+        "end": 109074
+      },
+      {
+        "start": 109074,
+        "end": 110395
+      },
+      {
+        "start": 110395,
+        "end": 110960
+      },
+      {
+        "start": 110960,
+        "end": 111497
+      },
+      {
+        "start": 111497,
+        "end": 112961
+      },
+      {
+        "start": 112961,
+        "end": 114855
+      },
+      {
+        "start": 114855,
+        "end": 115438
+      },
+      {
+        "start": 109074,
+        "end": 110003
+      },
+      {
+        "start": 110003,
+        "end": 109139
+      },
+      {
+        "start": 110003,
+        "end": 111123
+      },
+      {
+        "start": 111123,
+        "end": 112716
+      },
+      {
+        "start": 112716,
+        "end": 113136
+      },
+      {
+        "start": 113136,
+        "end": 114341
+      },
+      {
+        "start": 102618,
+        "end": 106278
+      }
+    ],
+    "ra": -0.4,
+    "dec": -0.16
+  },
+  {
+    "origin": "Ancient",
+    "info": "Often depicted as a maiden, Virgo is the constellation that announces the harvest, since the Sun passes through it in mid-September.",
+    "short": "Vir",
+    "name": "Virgo",
+    "family": "Zodiacal",
+    "luminary": "\u03b1 Virginis",
+    "month": "May",
+    "meaning": "The Maiden",
+    "edges": [
+      {
+        "start": 57380,
+        "end": 60030
+      },
+      {
+        "start": 60030,
+        "end": 61941
+      },
+      {
+        "start": 61941,
+        "end": 65474
+      },
+      {
+        "start": 65474,
+        "end": 69427
+      },
+      {
+        "start": 69427,
+        "end": 69701
+      },
+      {
+        "start": 69701,
+        "end": 71957
+      },
+      {
+        "start": 65474,
+        "end": 66249
+      },
+      {
+        "start": 66249,
+        "end": 68520
+      },
+      {
+        "start": 68520,
+        "end": 72220
+      },
+      {
+        "start": 66249,
+        "end": 63090
+      },
+      {
+        "start": 63090,
+        "end": 63608
+      },
+      {
+        "start": 63090,
+        "end": 61941
+      }
+    ],
+    "ra": -2.75,
+    "dec": -0.02
+  },
+  {
+    "origin": "1763",
+    "info": "Vela represents the sails of Argo Navis, a larger constellation which was split up into four smaller ones: Carina, Puppis, Pyxis, and Vela.",
+    "short": "Vel",
+    "name": "Vela",
+    "family": "Heavenly Waters",
+    "luminary": "\u03b3 Velorum",
+    "month": "March",
+    "meaning": "The Sails",
+    "edges": [
+      {
+        "start": 39953,
+        "end": 42536
+      },
+      {
+        "start": 42536,
+        "end": 42913
+      },
+      {
+        "start": 42913,
+        "end": 45941
+      },
+      {
+        "start": 45941,
+        "end": 48774
+      },
+      {
+        "start": 48774,
+        "end": 52727
+      },
+      {
+        "start": 52727,
+        "end": 51986
+      },
+      {
+        "start": 51986,
+        "end": 50191
+      },
+      {
+        "start": 50191,
+        "end": 46651
+      },
+      {
+        "start": 46651,
+        "end": 44816
+      },
+      {
+        "start": 44816,
+        "end": 39953
+      }
+    ],
+    "ra": 2.49,
+    "dec": -0.85
+  }
+]
