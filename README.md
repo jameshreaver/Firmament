@@ -23,16 +23,7 @@ The app was originally hosted at <https://firmament.space/>.
 
 Firmament was developed as a group project at Imperial College London in June 2016 by:
 
-Oliver Brown
-- Email: oliver.brown14@imperial.ac.uk
-- Github: @obrown
-
-Giacomo Guerci
-- Email: giacomo.guerci14@imperial.ac.uk
-- Github: @giacomoguerci
-
-Dylan Gape
-- Email: dylan.gape14@imperial.ac.uk
-
-Frances Tibble
-- Email: frances.tibble14@imperial.ac.uk
+- Oliver Brown
+- James Reaver
+- Dylan Gape
+- Frances Tibble
